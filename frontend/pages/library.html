@@ -1,0 +1,20 @@
+<!--meta title="Medicines and evidence library" description="Search a curated library of medicines and guidance excerpts. Every entry names its source." script="library.js" nav="library" -->
+<div class="lib-search">
+  <div class="wrap">
+    <h1 style="font-size:clamp(2rem,1.4rem + 2.4vw,2.8rem)">Medicines and evidence library</h1>
+    <p class="muted prose">The same library the system draws on. Search a medicine, brand name or topic.</p>
+    <form id="lib-form" class="find" role="search" autocomplete="off">
+      <div class="suggest" style="flex:1">
+        <label class="sr-only" for="q">Search the library</label>
+        <input id="q" name="q" type="search" role="combobox" aria-expanded="false" aria-controls="sugg" aria-autocomplete="list" placeholder="Try metformin, glucophage or kidney function" minlength="2" maxlength="100" required>
+        <ul id="sugg" role="listbox" hidden></ul>
+      </div>
+      <button class="btn" type="submit">Search</button>
+    </form>
+    <div class="chips"><a href="/library?q=metformin">metformin</a><a href="/library?q=penicillin+allergy">penicillin allergy</a><a href="/library?q=warfarin">warfarin</a><a href="/library?q=potassium">potassium</a><a href="/library?q=nsaid+kidney">NSAIDs and kidneys</a></div>
+  </div>
+</div>
+<div class="page-body"><div class="wrap"><div class="prose" style="max-width:52rem">
+  <div class="notice"><p id="lib-notice">General information from a small, curated library. Excerpts are paraphrased, not verbatim. It is not advice for any individual: check the original source and ask a clinician.</p></div>
+  <div id="results" aria-live="polite"></div>
+</div></div></div>

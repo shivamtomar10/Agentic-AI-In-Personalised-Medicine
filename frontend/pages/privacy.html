@@ -1,0 +1,23 @@
+<!--meta title="Privacy" description="What information CareTrace stores about you, why, and how to have it removed." nav="" -->
+<div class="page-head"><div class="wrap"><h1>Privacy</h1><p class="lead">What CareTrace stores about you, in plain language.</p></div></div>
+<div class="page-body"><div class="wrap"><div class="prose">
+<div class="notice warn"><p><strong>Your health data is private.</strong> Your medical information is stored only on this server. Free-text fields (notes, symptoms, chief complaint) are screened to prevent accidental submission of contact details. Your name and email address are never used in clinical analysis — only your pseudonymous patient ID enters the AI pipeline.</p></div>
+<h2>What we store</h2>
+<ul>
+<li><strong>Account details:</strong> your name, email address, date of birth and gender (patients), or staff ID (clinicians). Passwords are never stored. Only a salted one-way hash (scrypt) is kept.</li>
+<li><strong>Check-ins:</strong> the medicines, conditions, allergies, lab values and symptom text you enter, the recommendations produced, and the decisions clinicians record.</li>
+<li><strong>Sessions:</strong> a random sign-in token held in a cookie, and a hashed copy on the server, so you stay signed in.</li>
+<li><strong>Messages:</strong> anything you send through the contact form.</li>
+<li><strong>Audit log:</strong> account creation, sign-in and sign-out events, and clinician decisions. It uses your pseudonymous patient ID or staff ID, never your email address.</li>
+</ul>
+<h2>Your pseudonymous patient ID</h2>
+<p>When you register, you receive a random patient ID (for example PT-K7M2Q9XA). Only that ID enters the analysis pipeline and the audit log. Your email address stays in the accounts database.</p>
+<h2>Cookies</h2>
+<p>We set one cookie, used only to keep you signed in. It is HttpOnly, so scripts on the page cannot read it. We use no advertising or analytics cookies, and fonts are served from this site rather than a third party.</p>
+<h2>Who can see your information</h2>
+<p>Patients see only their own records. Signed-in clinicians can see the review queue, which contains patient IDs, values and recommendations. The site's administrator can access the database.</p>
+<h2>Removal</h2>
+<p>To have an account and its records removed, use the <a href="/contact">contact form</a> and choose "Account help". Because the audit log is tamper-evident by design, entries in it are pseudonymous and are kept.</p>
+<h2>Automated decisions</h2>
+<p>Nothing here is decided automatically. Every recommendation is reviewed by a clinician before it counts.</p>
+</div></div></div>

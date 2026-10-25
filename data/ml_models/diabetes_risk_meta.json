@@ -1,0 +1,37 @@
+{
+  "model": "GradientBoostingClassifier",
+  "dataset": "Pima Indians Diabetes Dataset",
+  "dataset_citation": "Smith, J.W. et al. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus. Symposium on Computer Applications in Medical Care. National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK).",
+  "dataset_license": "Public domain (US Government data)",
+  "n_patients": 768,
+  "n_features": 6,
+  "features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "n_diabetic": 268,
+  "n_non_diabetic": 500,
+  "cv_accuracy_mean": 0.7564,
+  "cv_accuracy_std": 0.0228,
+  "cv_roc_auc_mean": 0.8175,
+  "cv_roc_auc_std": 0.0377,
+  "feature_importances": {
+    "Glucose": 0.35242268319810155,
+    "BMI": 0.2135810122784149,
+    "DiabetesPedigreeFunction": 0.1554464852095413,
+    "Age": 0.14344014640592082,
+    "Pregnancies": 0.0701291789484759,
+    "BloodPressure": 0.06498049395954558
+  },
+  "hyperparameters": {
+    "n_estimators": 150,
+    "max_depth": 4,
+    "learning_rate": 0.08,
+    "subsample": 0.8
+  },
+  "limitation": "Trained on Pima Indian heritage females aged >=21. May not generalise to other demographics or ethnicities. This score is SUPPLEMENTARY to rule-based checks \u2014 not a replacement."
+}

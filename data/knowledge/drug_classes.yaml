@@ -1,0 +1,140 @@
+# Author-curated, prototype-scale drug knowledge (NOT a substitute for DDInter/RxNorm).
+# Replace/extend with DDInter + RxNorm for a full system (see docs/limitations.md).
+aliases:            # brand / synonym -> generic
+  glucophage: metformin
+  coumadin: warfarin
+  jantoven: warfarin
+  motrin: ibuprofen
+  advil: ibuprofen
+  aleve: naproxen
+  tylenol: acetaminophen
+  paracetamol: acetaminophen
+  zestril: lisinopril
+  prinivil: lisinopril
+  lasix: furosemide
+  augmentin: amoxicillin-clavulanate
+  zithromax: azithromycin
+  zofran: ondansetron
+  lipitor: atorvastatin
+  zocor: simvastatin
+  benadryl: diphenhydramine
+  valium: diazepam
+  ativan: lorazepam
+  xanax: alprazolam
+  ambien: zolpidem
+  januvia: sitagliptin
+  jardiance: empagliflozin
+  farxiga: dapagliflozin
+drugs:
+  metformin: [biguanide]
+  insulin: [insulin]
+  glipizide: [sulfonylurea]
+  glimepiride: [sulfonylurea, beers_avoid]
+  glyburide: [sulfonylurea, beers_avoid]
+  sitagliptin: [dpp4_inhibitor]
+  linagliptin: [dpp4_inhibitor]
+  empagliflozin: [sglt2_inhibitor]
+  dapagliflozin: [sglt2_inhibitor]
+  semaglutide: [glp1_ra]
+  liraglutide: [glp1_ra]
+  dulaglutide: [glp1_ra]
+  lisinopril: [raas_inhibitor, ace_inhibitor, teratogenic]
+  enalapril: [raas_inhibitor, ace_inhibitor, teratogenic]
+  ramipril: [raas_inhibitor, ace_inhibitor, teratogenic]
+  captopril: [raas_inhibitor, ace_inhibitor, teratogenic]
+  losartan: [raas_inhibitor, arb, teratogenic]
+  valsartan: [raas_inhibitor, arb, teratogenic]
+  telmisartan: [raas_inhibitor, arb, teratogenic]
+  candesartan: [raas_inhibitor, arb, teratogenic]
+  spironolactone: [potassium_raising]
+  eplerenone: [potassium_raising]
+  amiloride: [potassium_raising]
+  triamterene: [potassium_raising]
+  potassium-chloride: [potassium_raising]
+  furosemide: [loop_diuretic]
+  amlodipine: [ccb]
+  warfarin: [anticoagulant, teratogenic]
+  apixaban: [anticoagulant]
+  rivaroxaban: [anticoagulant]
+  dabigatran: [anticoagulant]
+  aspirin: [antiplatelet]
+  clopidogrel: [antiplatelet]
+  ibuprofen: [nsaid, beers_caution]
+  naproxen: [nsaid, beers_caution]
+  diclofenac: [nsaid, beers_caution]
+  ketorolac: [nsaid, beers_caution]
+  celecoxib: [nsaid]
+  indomethacin: [nsaid, beers_avoid]
+  acetaminophen: [analgesic, hepatotoxic]
+  amiodarone: [qt_prolonging, hepatotoxic]
+  sotalol: [qt_prolonging]
+  azithromycin: [qt_prolonging]
+  clarithromycin: [qt_prolonging]
+  erythromycin: [qt_prolonging]
+  levofloxacin: [qt_prolonging]
+  moxifloxacin: [qt_prolonging]
+  ciprofloxacin: [qt_prolonging]
+  citalopram: [qt_prolonging]
+  escitalopram: [qt_prolonging]
+  haloperidol: [qt_prolonging]
+  methadone: [qt_prolonging]
+  ondansetron: [qt_prolonging]
+  donepezil: [qt_prolonging]
+  fluconazole: [qt_prolonging]
+  hydroxychloroquine: [qt_prolonging]
+  penicillin: [penicillin]
+  amoxicillin: [penicillin]
+  ampicillin: [penicillin]
+  piperacillin: [penicillin]
+  flucloxacillin: [penicillin]
+  amoxicillin-clavulanate: [penicillin]
+  cephalexin: [cephalosporin]
+  cefazolin: [cephalosporin]
+  ceftriaxone: [cephalosporin]
+  cefuroxime: [cephalosporin]
+  sulfamethoxazole-trimethoprim: [sulfonamide_antibiotic]
+  atorvastatin: [statin, hepatotoxic]
+  simvastatin: [statin, hepatotoxic]
+  rosuvastatin: [statin]
+  methotrexate: [hepatotoxic, teratogenic]
+  isoniazid: [hepatotoxic]
+  valproic-acid: [hepatotoxic, teratogenic]
+  ketoconazole: [hepatotoxic]
+  isotretinoin: [teratogenic]
+  mycophenolate: [teratogenic]
+  diphenhydramine: [first_gen_antihistamine, beers_avoid]
+  hydroxyzine: [first_gen_antihistamine, beers_avoid]
+  promethazine: [first_gen_antihistamine, beers_avoid]
+  diazepam: [benzodiazepine, beers_avoid]
+  lorazepam: [benzodiazepine, beers_avoid]
+  alprazolam: [benzodiazepine, beers_avoid]
+  zolpidem: [z_drug, beers_avoid]
+  amitriptyline: [tca, beers_avoid]
+  cyclobenzaprine: [muscle_relaxant, beers_avoid]
+  sertraline: [ssri]
+  fluoxetine: [ssri]
+  escitalopram: [ssri, qt_prolonging]
+  citalopram: [ssri, qt_prolonging]
+  gemfibrozil: [fibrate]
+  fenofibrate: [fibrate]
+# allergy keyword -> (classes with definite conflict, classes with possible cross-reactivity)
+allergy_map:
+  penicillin: {definite: [penicillin], possible: [cephalosporin]}
+  amoxicillin: {definite: [penicillin], possible: [cephalosporin]}
+  beta-lactam: {definite: [penicillin, cephalosporin], possible: []}
+  cephalosporin: {definite: [cephalosporin], possible: []}
+  sulfa: {definite: [sulfonamide_antibiotic], possible: []}
+  sulfonamide: {definite: [sulfonamide_antibiotic], possible: []}
+  nsaid: {definite: [nsaid], possible: []}
+  aspirin: {definite: [antiplatelet_aspirin], possible: [nsaid]}
+# interaction rules by class pair. evidence = topic id in the evidence corpus.
+interaction_rules:
+  - {a: anticoagulant, b: nsaid, severity: high, effect: "Increased bleeding risk", topic: warfarin_nsaid}
+  - {a: anticoagulant, b: antiplatelet, severity: moderate, effect: "Increased bleeding risk", topic: warfarin_nsaid}
+  - {a: warfarin, b: amiodarone, severity: high, effect: "Amiodarone raises warfarin effect (INR)", topic: warfarin_amiodarone}
+  - {a: raas_inhibitor, b: potassium_raising, severity: high, effect: "Hyperkalaemia risk", topic: hyperkalemia_rasi}
+  - {a: qt_prolonging, b: qt_prolonging, severity: high, effect: "Additive QT prolongation / torsades de pointes risk", topic: qt_additive}
+  - {a: statin, b: fibrate, severity: high, effect: "Severe myopathy and rhabdomyolysis risk", topic: statin_fibrate}
+  - {a: nsaid, b: ssri, severity: moderate, effect: "Additive upper gastrointestinal bleeding risk", topic: nsaid_ssri}
+  - {a: ace_inhibitor, b: arb, severity: high, effect: "Dual RAAS blockade: increased hyperkalemia, AKI and hypotension risk without clinical benefit", topic: raas_dual}
+  - {a: methotrexate, b: nsaid, severity: high, effect: "Reduced renal clearance of methotrexate leading to bone marrow toxicity", topic: methotrexate_nsaid}

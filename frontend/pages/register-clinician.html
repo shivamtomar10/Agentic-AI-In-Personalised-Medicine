@@ -1,0 +1,25 @@
+<!--meta title="Clinician registration" description="Register as a clinician with an invite code to review recommendations." script="auth.js" nav="" robots="noindex" -->
+<div class="wrap auth" data-auth="register-clinician">
+  <section class="auth-card" aria-labelledby="h">
+    <h1 id="h">Clinician registration</h1>
+    <p class="muted">Already registered? <a href="/login?role=clinician">Sign in</a></p>
+    <form id="form" novalidate>
+      <div id="form-msg" tabindex="-1"></div>
+      <div class="field"><label for="display_name">Full name</label><input id="display_name" name="display_name" autocomplete="name" maxlength="80" required></div>
+      <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div class="field"><label for="staff_id">Staff ID <span class="hint">Letters, numbers, dot, dash or underscore, like DR-SMITH. This is recorded with every decision you make, and cannot be changed later.</span></label><input id="staff_id" name="staff_id" maxlength="41" autocomplete="off" required></div>
+      <div class="field"><label for="invite_code">Invite code <span class="hint">Given to you by the site administrator.</span></label><input id="invite_code" name="invite_code" autocomplete="off" required></div>
+      <div class="field"><label for="password">Password <span class="hint">At least 10 characters.</span></label>
+        <div class="pw-wrap"><input id="password" name="password" type="password" autocomplete="new-password" minlength="10" required><button type="button" class="btn btn-plain btn-sm pw-toggle" aria-controls="password" aria-pressed="false">Show</button></div>
+        <div class="meter" aria-hidden="true"><i id="meter"></i></div><div class="fine" id="meter-label" aria-live="polite"></div></div>
+      <div class="field"><label class="check"><input type="checkbox" name="accept_terms" id="accept_terms"><span>I have read the <a href="/terms" target="_blank">Terms of use</a> and <a href="/privacy" target="_blank">Privacy</a>.</span></label></div>
+      <button class="btn" type="submit" style="width:100%">Create clinician account</button>
+    </form>
+    <div class="demo-box" id="demo" hidden></div>
+  </section>
+  <aside class="auth-aside">
+    <h2>Why an invite code?</h2>
+    <p>Clinician accounts can see every case in the queue and record decisions, so they are not open to the public. Administrators can also create accounts directly from the command line.</p>
+    <p class="fine">Your decisions are written to a tamper-evident audit log under the staff ID you choose here.</p>
+  </aside>
+</div>

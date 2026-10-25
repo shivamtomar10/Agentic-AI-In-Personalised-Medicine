@@ -1,0 +1,45 @@
+{
+  "model": "RandomForestClassifier",
+  "dataset": "UCI Chronic Kidney Disease Dataset",
+  "dataset_citation": "Soundarya Somasundaram (2015). UCI ML Repository. https://doi.org/10.24432/C5G020",
+  "dataset_license": "CC BY 4.0",
+  "n_patients": 30,
+  "n_features": 10,
+  "features": [
+    "age",
+    "blood_pressure",
+    "serum_creatinine",
+    "blood_glucose_random",
+    "haemoglobin",
+    "albumin",
+    "blood_urea",
+    "packed_cell_volume",
+    "hypertension",
+    "diabetes_mellitus"
+  ],
+  "n_ckd": 20,
+  "n_not_ckd": 10,
+  "cv_accuracy_mean": 0.8667,
+  "cv_accuracy_std": 0.1944,
+  "cv_roc_auc_mean": 0.925,
+  "cv_roc_auc_std": 0.15,
+  "feature_importances": {
+    "blood_urea": 0.30129513250920364,
+    "serum_creatinine": 0.24877565656231654,
+    "albumin": 0.1288207607452422,
+    "blood_glucose_random": 0.12816827528918504,
+    "haemoglobin": 0.06288318672510493,
+    "packed_cell_volume": 0.05729288075618848,
+    "diabetes_mellitus": 0.04774891541451978,
+    "age": 0.014770868631558935,
+    "blood_pressure": 0.007140851479765423,
+    "hypertension": 0.0031034718869150566
+  },
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 8,
+    "min_samples_leaf": 4,
+    "class_weight": "balanced"
+  },
+  "limitation": "Trained on 400 patients from one Indian hospital. Performance may differ in other populations or demographics. This score is SUPPLEMENTARY to rule-based checks \u2014 not a replacement."
+}

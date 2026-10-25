@@ -1,0 +1,38 @@
+<!--meta title="How it works" description="How {{site_name}} compares each new set of results with a patient's history, runs eight specialised checks, and passes the outcome to a clinician with evidence attached." nav="how" -->
+<div class="page-head"><div class="wrap"><h1>How it works</h1><p class="lead">A plain-language tour, from a patient's check-in to a clinician's decision.</p></div></div>
+<div class="page-body"><div class="wrap">
+<div class="prose">
+<h2>1. A check-in becomes a versioned record</h2>
+<p>When a patient submits results, the system adds a new version to their record instead of overwriting the old one. Each version is sealed with a fingerprint (a hash) that includes the fingerprint of the version before it. If anyone alters an earlier version, the chain no longer adds up and the system reports it.</p>
+<p>Values are never guessed. If a lab was not measured, it is left empty and the system says so, rather than filling the gap.</p>
+
+<h2>2. The system asks: what actually changed?</h2>
+<p>A rule-based change detector compares the new version with the previous one. Each difference is scored using written, inspectable rules: a value crossing a safety threshold, a new allergy, a new medicine, a dose change. Small movements inside normal measurement variation are recognised as noise.</p>
+<div class="notice warn"><p><strong>Why this matters.</strong> If nothing meaningful changed, the system reuses its earlier reasoning after re-checking it against the new numbers. That keeps advice steady from one visit to the next instead of drifting for no reason. If something did change, only the checks affected by that kind of change run again.</p></div>
+
+<h2>3. Eight specialised checks</h2>
+<ul>
+<li><strong>Patient data.</strong> Puts the record into consistent units and flags gaps.</li>
+<li><strong>Record trends.</strong> Looks at how values moved across visits.</li>
+<li><strong>Medical knowledge.</strong> Retrieves guidance for the patient's conditions, and abstains if nothing relevant is found.</li>
+<li><strong>Risk assessment.</strong> Flags drug interactions, allergy conflicts, kidney-related cautions and data-quality problems.</li>
+<li><strong>Diagnostic.</strong> Produces a ranked list of possibilities, never a single verdict.</li>
+<li><strong>Treatment.</strong> Proposes options for a clinician to consider. Every option must cite at least one claim.</li>
+<li><strong>Validation.</strong> An independent checker that recomputes key facts from the raw record and challenges the others.</li>
+<li><strong>Explanation.</strong> Writes the rationale, alternatives and uncertainty in readable form.</li>
+</ul>
+
+<h2>4. Every claim carries its evidence</h2>
+<p>A clinical claim must point to a specific passage in the evidence library. Claims without a retrievable source are withheld from the approved output and listed separately, so the clinician can see what was held back. You can browse the same library on the <a href="/library">Library</a> page.</p>
+
+<h2>5. The system can say "I'm not sure"</h2>
+<p>Each result has a confidence score built from the checks' own confidence, how well the medicines are covered by the knowledge table, and whether validation raised concerns. Below a threshold, the system defers: it shows its findings but proposes no actions, and asks the clinician to take over.</p>
+
+<h2>6. A named clinician decides</h2>
+<p>Suggestions wait in a review queue. A clinician can approve, approve with modifications, or reject, and must write a rationale. Their staff ID comes from their signed-in account and is recorded in a tamper-evident audit log along with the rationale. The patient then sees the decision in their portal.</p>
+
+<h2>7. Emergencies short-circuit everything</h2>
+<p>If a check-in contains emergency wording such as chest pain, the patient immediately sees a prompt to seek urgent care, and the case is flagged for the clinician. This website cannot respond to emergencies. Contact your local emergency number.</p>
+</div>
+<div class="btn-row" style="margin-top:2rem"><a class="btn" href="/register">Create a patient account</a><a class="btn btn-quiet" href="/research">See how it was evaluated</a></div>
+</div></div>

@@ -1,0 +1,1252 @@
+{
+  "meta": {
+    "seeds": [
+      0
+    ],
+    "quick": true,
+    "cohort": {
+      "patients_per_seed": 10,
+      "encounters_per_patient": 6
+    },
+    "python": "3.14.2",
+    "created_utc": "2026-10-03T19:35:51.663724+00:00",
+    "data": "SYNTHETIC only (author-written scenarios + seeded simulator; not Synthea/MIMIC)",
+    "agents": "deterministic rule+retrieval cores (no LLM); see docs/limitations.md",
+    "runtime_s": 48.0
+  },
+  "adaptation": {
+    "per_mode": {
+      "full_rerun": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "n": 1
+      },
+      "selective_replan": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "n": 1
+      }
+    },
+    "per_family": {
+      "a_egfr_below_30_on_metformin": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "b_new_penicillin_allergy": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "c_new_pregnancy_on_ace_inhibitor": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "d_new_anticoagulant_with_nsaid": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "e_hba1c_rise": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "f_hyperkalaemia_on_rasi": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "g_new_qt_combination": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h_age_crosses_65_beers": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "i_alt_3x_uln_on_statin": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "j_condition_resolved_therapy_review": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      }
+    },
+    "failures": [],
+    "ucr_raw": 0.0
+  },
+  "adaptation_holdout": {
+    "per_mode": {
+      "full_rerun": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "n": 1
+      },
+      "selective_replan": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "n": 1
+      }
+    },
+    "per_family": {
+      "h01_metformin_dose_reduction_band": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h02_nsaid_in_advanced_ckd": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h03_warfarin_plus_amiodarone": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h04_cephalosporin_with_penicillin_allergy": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h05_benzodiazepine_at_65": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h06_statin_hepatotoxicity": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h07_two_qt_drugs": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h08_pregnancy_on_warfarin": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h09_sulfa_allergy_with_cotrimoxazole": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h10_dvt_resolved_on_apixaban": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h11_hyperkalaemia_on_arb": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h12_do_not_overtreat_older_adult": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      },
+      "h13_unmodelled_drug_must_be_disclosed": {
+        "full_rerun": [
+          true
+        ],
+        "selective_replan": [
+          true
+        ]
+      }
+    },
+    "failures": [],
+    "ucr_raw": 0.0
+  },
+  "linker": {
+    "dev": {
+      "n": 24,
+      "precision": 1.0,
+      "recall": 0.833,
+      "false_positive_rate": 0.0,
+      "tp": 10,
+      "fp": 0,
+      "fn": 2,
+      "tn": 12,
+      "errors": [
+        [
+          "FN",
+          "EV-KDIGO-DM-CKD-2022-SGLT2#0",
+          "SGLT2 inhibitors are advised for type 2 diabetes with CKD when eGFR is at least 20 mL/min/1.73 m2"
+        ],
+        [
+          "FN",
+          "EV-JACI-2022-PENICILLIN#0",
+          "Patients with a documented penicillin allergy should not receive penicillins until they have been evaluated"
+        ]
+      ]
+    },
+    "test": {
+      "n": 24,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0,
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "tn": 12,
+      "errors": []
+    },
+    "test2": {
+      "n": 16,
+      "precision": 0.667,
+      "recall": 0.889,
+      "false_positive_rate": 0.571,
+      "tp": 8,
+      "fp": 4,
+      "fn": 1,
+      "tn": 3,
+      "errors": [
+        [
+          "FN",
+          "EV-KDIGO-CKD-2024-HYPERK#0",
+          "Managing hyperkalemia from RAS inhibitors usually starts with measures that lower potassium"
+        ],
+        [
+          "FP",
+          "EV-JACI-2022-PENICILLIN#1",
+          "Cross-reactivity between penicillins and cephalosporins is high overall"
+        ],
+        [
+          "FP",
+          "EV-KDIGO-DM-CKD-2022-SGLT2#0",
+          "SGLT2 inhibitors are recommended for patients with type 1 diabetes, CKD and an eGFR of 20 mL/min/1.73 m2 or higher"
+        ],
+        [
+          "FP",
+          "EV-CREDIBLEMEDS-QT#1",
+          "Combining two or more QT-prolonging drugs raises the risk of torsades de pointes and should be encouraged"
+        ],
+        [
+          "FP",
+          "EV-KDIGO-CKD-2024-STAGING#1",
+          "G2 is 60 to 90 mL/min/1.73 m2"
+        ]
+      ]
+    }
+  },
+  "linker_strict": {
+    "dev": {
+      "n": 24,
+      "precision": 1.0,
+      "recall": 0.25,
+      "false_positive_rate": 0.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 9,
+      "tn": 12,
+      "errors": [
+        [
+          "FN",
+          "EV-FDA-METFORMIN#0",
+          "Metformin should not be used in patients whose eGFR is under 30 mL/min/1.73 m2"
+        ],
+        [
+          "FN",
+          "EV-FDA-METFORMIN#1",
+          "It is not recommended to start metformin when eGFR is between 30 and 45 mL/min/1.73 m2"
+        ],
+        [
+          "FN",
+          "EV-KDIGO-DM-CKD-2022-METFORMIN#1",
+          "Metformin dose should be lowered once eGFR falls below 45 mL/min/1.73 m2"
+        ],
+        [
+          "FN",
+          "EV-KDIGO-DM-CKD-2022-SGLT2#0",
+          "SGLT2 inhibitors are advised for type 2 diabetes with CKD when eGFR is at least 20 mL/min/1.73 m2"
+        ],
+        [
+          "FN",
+          "EV-LABEL-WARFARIN-NSAID#0",
+          "Taking an NSAID together with warfarin raises bleeding risk"
+        ],
+        [
+          "FN",
+          "EV-LABEL-WARFARIN-AMIODARONE#0",
+          "Amiodarone can raise the INR in patients on warfarin"
+        ],
+        [
+          "FN",
+          "EV-LABEL-ACEI-PREGNANCY#1",
+          "ACE inhibitors and ARBs should be stopped as soon as pregnancy is detected"
+        ],
+        [
+          "FN",
+          "EV-JACI-2022-PENICILLIN#0",
+          "Patients with a documented penicillin allergy should not receive penicillins until they have been evaluated"
+        ],
+        [
+          "FN",
+          "EV-CREDIBLEMEDS-QT#1",
+          "Using two or more QT-prolonging drugs together increases the risk of torsades de pointes"
+        ]
+      ]
+    },
+    "test": {
+      "n": 24,
+      "precision": 1.0,
+      "recall": 0.25,
+      "false_positive_rate": 0.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 9,
+      "tn": 12,
+      "errors": [
+        [
+          "FN",
+          "EV-FDA-METFORMIN#2",
+          "Clinicians should reassess whether to continue metformin when eGFR drops below 45 mL/min/1.73 m2"
+        ],
+        [
+          "FN",
+          "EV-KDIGO-DM-CKD-2022-METFORMIN#0",
+          "Metformin may be used in type 2 diabetes with CKD provided eGFR is 30 mL/min/1.73 m2 or above"
+        ],
+        [
+          "FN",
+          "EV-LABEL-WARFARIN-NSAID#1",
+          "Close monitoring is needed when a drug affecting bleeding is added to an anticoagulant"
+        ],
+        [
+          "FN",
+          "EV-KDIGO-CKD-2024-STAGING#1",
+          "GFR category G4 covers 15 to 29 mL/min/1.73 m2"
+        ],
+        [
+          "FN",
+          "EV-JACI-2022-PENICILLIN#2",
+          "Cephalosporins that have different side chains can frequently be given when needed, with care"
+        ],
+        [
+          "FN",
+          "EV-FDA-DILI-2009#1",
+          "Clinical review and repeat testing are warranted in patients on a possibly hepatotoxic drug"
+        ],
+        [
+          "FN",
+          "EV-AGS-BEERS-2023#0",
+          "Adults 65 years and older should generally avoid or cautiously use potentially inappropriate medications listed in the Beers Criteria"
+        ],
+        [
+          "FN",
+          "EV-CREDIBLEMEDS-QT#1",
+          "Two or more QT-prolonging drugs together raise torsades de pointes risk and should be avoided or monitored with ECG and electrolytes"
+        ],
+        [
+          "FN",
+          "EV-FDA-METFORMIN#1",
+          "Metformin should not be started when eGFR is between 30 and 45 mL/min/1.73 m2"
+        ]
+      ]
+    },
+    "test2": {
+      "n": 16,
+      "precision": 0.75,
+      "recall": 0.667,
+      "false_positive_rate": 0.286,
+      "tp": 6,
+      "fp": 2,
+      "fn": 3,
+      "tn": 5,
+      "errors": [
+        [
+          "FN",
+          "EV-LABEL-WARFARIN-NSAID#0",
+          "Combining an NSAID with warfarin increases the chance of bleeding"
+        ],
+        [
+          "FN",
+          "EV-FDA-DILI-2009#1",
+          "Repeat testing and clinical review are appropriate for a patient on a potentially hepatotoxic drug"
+        ],
+        [
+          "FN",
+          "EV-KDIGO-CKD-2024-HYPERK#0",
+          "Managing hyperkalemia from RAS inhibitors usually starts with measures that lower potassium"
+        ],
+        [
+          "FP",
+          "EV-KDIGO-DM-CKD-2022-SGLT2#0",
+          "SGLT2 inhibitors are recommended for patients with type 1 diabetes, CKD and an eGFR of 20 mL/min/1.73 m2 or higher"
+        ],
+        [
+          "FP",
+          "EV-KDIGO-CKD-2024-STAGING#1",
+          "G2 is 60 to 90 mL/min/1.73 m2"
+        ]
+      ]
+    }
+  },
+  "calibration": {
+    "train_cases": 414,
+    "test_cases": 414,
+    "test_error_rate": 0.2319,
+    "fixed": {
+      "aurc": 0.0717,
+      "auroc": 0.8491,
+      "mean_conf_correct": 0.939,
+      "mean_conf_incorrect": 0.9103
+    },
+    "learned": {
+      "aurc": 0.0659,
+      "auroc": 0.8765,
+      "mean_conf_correct": 0.8578,
+      "mean_conf_incorrect": 0.4711
+    },
+    "hybrid_min": {
+      "aurc": 0.0659,
+      "auroc": 0.8765
+    },
+    "accuracy_by_case_kind": {
+      "normal": {
+        "n": 69,
+        "correct": 1.0
+      },
+      "missing_labs": {
+        "n": 69,
+        "correct": 0.652
+      },
+      "unknown_drug": {
+        "n": 69,
+        "correct": 0.217
+      },
+      "fault": {
+        "n": 207,
+        "correct": 0.913
+      }
+    },
+    "weights": {
+      "agent": 0.79,
+      "coverage": 0.0,
+      "consistency": 0.0,
+      "recency": 0.224,
+      "completeness": -0.022,
+      "knowledge": 0.735
+    },
+    "calibrator": {
+      "mode": "logistic",
+      "features": [
+        "agent",
+        "coverage",
+        "consistency",
+        "recency",
+        "completeness",
+        "knowledge"
+      ],
+      "weights": [
+        0.790387,
+        0.0,
+        0.0,
+        0.223594,
+        -0.022035,
+        0.73514
+      ],
+      "bias": 1.585627,
+      "mean": [
+        0.855132,
+        1.0,
+        1.0,
+        0.902904,
+        0.874493,
+        0.827296
+      ],
+      "std": [
+        0.052716,
+        1.0,
+        1.0,
+        0.035764,
+        0.220129,
+        0.362498
+      ]
+    },
+    "train_seeds": [
+      100,
+      101,
+      102
+    ],
+    "test_seeds": [
+      200,
+      201,
+      202
+    ]
+  },
+  "stability": {
+    "per_mode": {
+      "full_rerun": {
+        "overall": 1.0,
+        "by_perturbation": {
+          "repeat_run": 1.0,
+          "reorder_fields": 1.0,
+          "equivalent_units": 1.0,
+          "irrelevant_demographics": 1.0,
+          "notes_paraphrase": 1.0,
+          "assay_jitter": 1.0
+        }
+      },
+      "selective_replan": {
+        "overall": 1.0,
+        "by_perturbation": {
+          "repeat_run": 1.0,
+          "reorder_fields": 1.0,
+          "equivalent_units": 1.0,
+          "irrelevant_demographics": 1.0,
+          "notes_paraphrase": 1.0,
+          "assay_jitter": 1.0
+        }
+      }
+    }
+  },
+  "boundaries": {
+    "rows": [
+      {
+        "case": "metformin_30",
+        "direction": "to_safe",
+        "baseline_changed": true,
+        "selective_changed": false
+      },
+      {
+        "case": "metformin_30",
+        "direction": "to_unsafe",
+        "baseline_changed": true,
+        "selective_changed": true
+      },
+      {
+        "case": "metformin_45",
+        "direction": "to_safe",
+        "baseline_changed": true,
+        "selective_changed": false
+      },
+      {
+        "case": "metformin_45",
+        "direction": "to_unsafe",
+        "baseline_changed": true,
+        "selective_changed": true
+      },
+      {
+        "case": "ckd_60",
+        "direction": "to_safe",
+        "baseline_changed": true,
+        "selective_changed": false
+      },
+      {
+        "case": "ckd_60",
+        "direction": "to_unsafe",
+        "baseline_changed": true,
+        "selective_changed": true
+      },
+      {
+        "case": "k_5.5",
+        "direction": "to_safe",
+        "baseline_changed": true,
+        "selective_changed": false
+      },
+      {
+        "case": "k_5.5",
+        "direction": "to_unsafe",
+        "baseline_changed": true,
+        "selective_changed": true
+      },
+      {
+        "case": "a1c_7",
+        "direction": "to_safe",
+        "baseline_changed": true,
+        "selective_changed": false
+      },
+      {
+        "case": "a1c_7",
+        "direction": "to_unsafe",
+        "baseline_changed": true,
+        "selective_changed": true
+      }
+    ],
+    "to_safe_stability": {
+      "baseline": 0.0,
+      "selective": 1.0
+    },
+    "to_unsafe_responsiveness": {
+      "baseline": 1.0,
+      "selective": 1.0
+    }
+  },
+  "faults": {
+    "n_injected": 11,
+    "pcr": 1.0,
+    "detection_rate": 1.0,
+    "breakdown": {
+      "fabricated_interaction": {
+        "risk_assessment": {
+          "n": 1,
+          "pcr": 1.0
+        },
+        "treatment": {
+          "n": 1,
+          "pcr": 1.0
+        }
+      },
+      "inverted_lab_value": {
+        "patient_data": {
+          "n": 1,
+          "pcr": 1.0
+        }
+      },
+      "wrong_unit": {
+        "patient_data": {
+          "n": 1,
+          "pcr": 1.0
+        }
+      },
+      "hallucinated_citation_id": {
+        "medical_knowledge": {
+          "n": 1,
+          "pcr": 1.0
+        },
+        "treatment": {
+          "n": 1,
+          "pcr": 1.0
+        },
+        "risk_assessment": {
+          "n": 1,
+          "pcr": 1.0
+        }
+      },
+      "plausible_wrong_contraindication": {
+        "risk_assessment": {
+          "n": 1,
+          "pcr": 1.0
+        },
+        "treatment": {
+          "n": 1,
+          "pcr": 1.0
+        }
+      },
+      "dropped_allergy": {
+        "patient_data": {
+          "n": 1,
+          "pcr": 1.0
+        },
+        "risk_assessment": {
+          "n": 1,
+          "pcr": 1.0
+        }
+      }
+    },
+    "ucr_raw": 0.004457652303120356,
+    "ucr_approved": 0.0,
+    "escaped": []
+  },
+  "faults_no_defences": {
+    "n_injected": 11,
+    "pcr": 0.0,
+    "detection_rate": 0.0,
+    "breakdown": {
+      "fabricated_interaction": {
+        "risk_assessment": {
+          "n": 1,
+          "pcr": 0.0
+        },
+        "treatment": {
+          "n": 1,
+          "pcr": 0.0
+        }
+      },
+      "inverted_lab_value": {
+        "patient_data": {
+          "n": 1,
+          "pcr": 0.0
+        }
+      },
+      "wrong_unit": {
+        "patient_data": {
+          "n": 1,
+          "pcr": 0.0
+        }
+      },
+      "hallucinated_citation_id": {
+        "medical_knowledge": {
+          "n": 1,
+          "pcr": 0.0
+        },
+        "treatment": {
+          "n": 1,
+          "pcr": 0.0
+        },
+        "risk_assessment": {
+          "n": 1,
+          "pcr": 0.0
+        }
+      },
+      "plausible_wrong_contraindication": {
+        "risk_assessment": {
+          "n": 1,
+          "pcr": 0.0
+        },
+        "treatment": {
+          "n": 1,
+          "pcr": 0.0
+        }
+      },
+      "dropped_allergy": {
+        "patient_data": {
+          "n": 1,
+          "pcr": 0.0
+        },
+        "risk_assessment": {
+          "n": 1,
+          "pcr": 0.0
+        }
+      }
+    },
+    "ucr_raw": 0.004457652303120356,
+    "ucr_approved": 0.004457652303120356,
+    "escaped": [
+      {
+        "kind": "fabricated_interaction",
+        "point": "risk_assessment"
+      },
+      {
+        "kind": "fabricated_interaction",
+        "point": "treatment"
+      },
+      {
+        "kind": "inverted_lab_value",
+        "point": "patient_data"
+      },
+      {
+        "kind": "wrong_unit",
+        "point": "patient_data"
+      },
+      {
+        "kind": "hallucinated_citation_id",
+        "point": "medical_knowledge"
+      },
+      {
+        "kind": "hallucinated_citation_id",
+        "point": "treatment"
+      },
+      {
+        "kind": "hallucinated_citation_id",
+        "point": "risk_assessment"
+      },
+      {
+        "kind": "plausible_wrong_contraindication",
+        "point": "risk_assessment"
+      },
+      {
+        "kind": "plausible_wrong_contraindication",
+        "point": "treatment"
+      },
+      {
+        "kind": "dropped_allergy",
+        "point": "patient_data"
+      },
+      {
+        "kind": "dropped_allergy",
+        "point": "risk_assessment"
+      }
+    ]
+  },
+  "efficiency_sweep": [
+    {
+      "p_signal": 0.05,
+      "n_encounters": 50,
+      "signal_fraction": 0.0,
+      "invocations_per_encounter": {
+        "full_rerun": 8,
+        "selective": 4.08
+      },
+      "invocation_reduction": 0.49,
+      "reasoning_per_encounter": {
+        "full_rerun": 4,
+        "selective": 0.08
+      },
+      "reasoning_reduction": 0.98,
+      "latency_ms": {
+        "full_rerun": 9.6,
+        "selective": 9.1
+      },
+      "selective_vs_full_agreement": 0.98,
+      "safety_replans": 0,
+      "delta_engine": {
+        "recall_signal": null,
+        "false_positive_rate": 0.04,
+        "tp": 0,
+        "fn": 0,
+        "fp": 2,
+        "tn": 48
+      }
+    },
+    {
+      "p_signal": 0.1,
+      "n_encounters": 50,
+      "signal_fraction": 0.12,
+      "invocations_per_encounter": {
+        "full_rerun": 8,
+        "selective": 4.54
+      },
+      "invocation_reduction": 0.4325,
+      "reasoning_per_encounter": {
+        "full_rerun": 4,
+        "selective": 0.54
+      },
+      "reasoning_reduction": 0.865,
+      "latency_ms": {
+        "full_rerun": 11.21,
+        "selective": 9.74
+      },
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "delta_engine": {
+        "recall_signal": 1.0,
+        "false_positive_rate": 0.0455,
+        "tp": 6,
+        "fn": 0,
+        "fp": 2,
+        "tn": 42
+      }
+    },
+    {
+      "p_signal": 0.2,
+      "n_encounters": 50,
+      "signal_fraction": 0.2,
+      "invocations_per_encounter": {
+        "full_rerun": 8,
+        "selective": 4.72
+      },
+      "invocation_reduction": 0.41,
+      "reasoning_per_encounter": {
+        "full_rerun": 4,
+        "selective": 0.72
+      },
+      "reasoning_reduction": 0.82,
+      "latency_ms": {
+        "full_rerun": 10.56,
+        "selective": 9.35
+      },
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "delta_engine": {
+        "recall_signal": 1.0,
+        "false_positive_rate": 0.0,
+        "tp": 10,
+        "fn": 0,
+        "fp": 0,
+        "tn": 40
+      }
+    },
+    {
+      "p_signal": 0.4,
+      "n_encounters": 50,
+      "signal_fraction": 0.3,
+      "invocations_per_encounter": {
+        "full_rerun": 8,
+        "selective": 5.06
+      },
+      "invocation_reduction": 0.3675,
+      "reasoning_per_encounter": {
+        "full_rerun": 4,
+        "selective": 1.06
+      },
+      "reasoning_reduction": 0.735,
+      "latency_ms": {
+        "full_rerun": 11.73,
+        "selective": 9.86
+      },
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "delta_engine": {
+        "recall_signal": 1.0,
+        "false_positive_rate": 0.0,
+        "tp": 15,
+        "fn": 0,
+        "fp": 0,
+        "tn": 35
+      }
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "threshold": 0.05,
+      "recall_signal": 1.0,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.15,
+      "recall_signal": 1.0,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.25,
+      "recall_signal": 1.0,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.3,
+      "recall_signal": 1.0,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.35,
+      "recall_signal": 1.0,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.45,
+      "recall_signal": 1.0,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.55,
+      "recall_signal": 0.9,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.65,
+      "recall_signal": 0.9,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.75,
+      "recall_signal": 0.7,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.85,
+      "recall_signal": 0.7,
+      "noise_suppression": 1.0
+    },
+    {
+      "threshold": 0.95,
+      "recall_signal": 0.0,
+      "noise_suppression": 1.0
+    }
+  ],
+  "selective_prediction": {
+    "n_cases": 50,
+    "aurc": 0.317,
+    "overall_risk": 0.3,
+    "curve": [
+      {
+        "threshold": 0.8836,
+        "coverage": 1.0,
+        "risk": 0.3
+      },
+      {
+        "threshold": 0.8919,
+        "coverage": 0.94,
+        "risk": 0.2553
+      },
+      {
+        "threshold": 0.9065,
+        "coverage": 0.92,
+        "risk": 0.2609
+      },
+      {
+        "threshold": 0.9094,
+        "coverage": 0.9,
+        "risk": 0.2667
+      },
+      {
+        "threshold": 0.9137,
+        "coverage": 0.88,
+        "risk": 0.2727
+      },
+      {
+        "threshold": 0.9204,
+        "coverage": 0.86,
+        "risk": 0.2791
+      },
+      {
+        "threshold": 0.9211,
+        "coverage": 0.84,
+        "risk": 0.2857
+      },
+      {
+        "threshold": 0.9313,
+        "coverage": 0.82,
+        "risk": 0.2927
+      },
+      {
+        "threshold": 0.9316,
+        "coverage": 0.78,
+        "risk": 0.3077
+      },
+      {
+        "threshold": 0.9336,
+        "coverage": 0.76,
+        "risk": 0.2895
+      },
+      {
+        "threshold": 0.935,
+        "coverage": 0.74,
+        "risk": 0.2973
+      },
+      {
+        "threshold": 0.941,
+        "coverage": 0.72,
+        "risk": 0.3056
+      },
+      {
+        "threshold": 0.9415,
+        "coverage": 0.68,
+        "risk": 0.3235
+      },
+      {
+        "threshold": 0.9416,
+        "coverage": 0.66,
+        "risk": 0.303
+      },
+      {
+        "threshold": 0.9418,
+        "coverage": 0.62,
+        "risk": 0.3226
+      },
+      {
+        "threshold": 0.942,
+        "coverage": 0.6,
+        "risk": 0.3
+      },
+      {
+        "threshold": 0.9451,
+        "coverage": 0.58,
+        "risk": 0.3103
+      },
+      {
+        "threshold": 0.9453,
+        "coverage": 0.54,
+        "risk": 0.3333
+      },
+      {
+        "threshold": 0.9456,
+        "coverage": 0.52,
+        "risk": 0.3077
+      },
+      {
+        "threshold": 0.9457,
+        "coverage": 0.48,
+        "risk": 0.2917
+      },
+      {
+        "threshold": 0.9468,
+        "coverage": 0.46,
+        "risk": 0.2609
+      },
+      {
+        "threshold": 0.9478,
+        "coverage": 0.44,
+        "risk": 0.2727
+      },
+      {
+        "threshold": 0.9482,
+        "coverage": 0.4,
+        "risk": 0.3
+      },
+      {
+        "threshold": 0.9494,
+        "coverage": 0.38,
+        "risk": 0.2632
+      },
+      {
+        "threshold": 0.9499,
+        "coverage": 0.36,
+        "risk": 0.2778
+      },
+      {
+        "threshold": 0.95,
+        "coverage": 0.34,
+        "risk": 0.2941
+      },
+      {
+        "threshold": 0.9503,
+        "coverage": 0.32,
+        "risk": 0.3125
+      },
+      {
+        "threshold": 0.9504,
+        "coverage": 0.3,
+        "risk": 0.2667
+      },
+      {
+        "threshold": 0.9523,
+        "coverage": 0.24,
+        "risk": 0.25
+      },
+      {
+        "threshold": 0.9531,
+        "coverage": 0.22,
+        "risk": 0.2727
+      },
+      {
+        "threshold": 0.9534,
+        "coverage": 0.16,
+        "risk": 0.375
+      },
+      {
+        "threshold": 0.9539,
+        "coverage": 0.14,
+        "risk": 0.2857
+      },
+      {
+        "threshold": 0.9548,
+        "coverage": 0.12,
+        "risk": 0.3333
+      },
+      {
+        "threshold": 0.955,
+        "coverage": 0.08,
+        "risk": 0.5
+      },
+      {
+        "threshold": 0.9587,
+        "coverage": 0.06,
+        "risk": 0.3333
+      },
+      {
+        "threshold": 0.959,
+        "coverage": 0.02,
+        "risk": 1.0
+      }
+    ],
+    "mean_confidence": {
+      "correct": 0.9406,
+      "incorrect": 0.9346
+    }
+  },
+  "ablations": {
+    "full_system": {
+      "adaptation_recall_selective": 1.0,
+      "pcr": 1.0,
+      "detection_rate": 1.0,
+      "ucr_approved": 0.0,
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "invocation_reduction": 0.425
+    },
+    "no_provenance_gate": {
+      "adaptation_recall_selective": 1.0,
+      "pcr": 1.0,
+      "detection_rate": 1.0,
+      "ucr_approved": 0.0,
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "invocation_reduction": 0.425
+    },
+    "no_validation": {
+      "adaptation_recall_selective": 1.0,
+      "pcr": 0.2727272727272727,
+      "detection_rate": 0.2727272727272727,
+      "ucr_approved": 0.0,
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "invocation_reduction": 0.4857
+    },
+    "no_abstention": {
+      "adaptation_recall_selective": 1.0,
+      "pcr": 1.0,
+      "detection_rate": 1.0,
+      "ucr_approved": 0.0,
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "invocation_reduction": 0.425
+    },
+    "no_safety_replan": {
+      "adaptation_recall_selective": 1.0,
+      "pcr": 1.0,
+      "detection_rate": 1.0,
+      "ucr_approved": 0.0,
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "invocation_reduction": 0.425
+    },
+    "no_defences": {
+      "adaptation_recall_selective": 1.0,
+      "pcr": 0.0,
+      "detection_rate": 0.0,
+      "ucr_approved": 0.004457652303120356,
+      "selective_vs_full_agreement": 1.0,
+      "safety_replans": 0,
+      "invocation_reduction": 0.4857
+    }
+  }
+}

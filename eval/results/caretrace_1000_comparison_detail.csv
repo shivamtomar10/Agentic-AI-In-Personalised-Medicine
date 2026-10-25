@@ -1,0 +1,1001 @@
+patient_id,scenario,action_verdict,action_detail,risk_verdict,risk_detail,overall,actual_actions_summary,n_actions,n_risk_flags,deferred,confidence
+EV-0001,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0002,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0003,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0004,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0005,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0006,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0007,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0008,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0009,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0010,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0011,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0012,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0013,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0014,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0015,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0016,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0017,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0018,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0019,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0020,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0021,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0022,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0023,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0024,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0025,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0026,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0027,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0028,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0029,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0030,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0031,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0032,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0033,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0034,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0035,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0036,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0037,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0038,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0039,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0040,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0041,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0042,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0043,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0044,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0045,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0046,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0047,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0048,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0049,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0050,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0051,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0052,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0053,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0054,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0055,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0056,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0057,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0058,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0059,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0060,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0061,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0062,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0063,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0064,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0065,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0066,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0067,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0068,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0069,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0070,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0071,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0072,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0073,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0074,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0075,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0076,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0077,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0078,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0079,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0080,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0081,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0082,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0083,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0084,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0085,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0086,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0087,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0088,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0089,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0090,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0091,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0092,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0093,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0094,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0095,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0096,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0097,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0098,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0099,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0100,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0101,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0102,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0103,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0104,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0105,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0106,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0107,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0108,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0109,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0110,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0111,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0112,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0113,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0114,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0115,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0116,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0117,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0118,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0119,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0120,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0121,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0122,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0123,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0124,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0125,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0126,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0127,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0128,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0129,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0130,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0131,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0132,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0133,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0134,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0135,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0136,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0137,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0138,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0139,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0140,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0141,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0142,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0143,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0144,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0145,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0146,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0147,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0148,stable_t2dm_metformin,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.929
+EV-0149,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0150,stable_t2dm_metformin,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9323
+EV-0151,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0152,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0153,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0154,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0155,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0156,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0157,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0158,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0159,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0160,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0161,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0162,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0163,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0164,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0165,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0166,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0167,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0168,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0169,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0170,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0171,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0172,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0173,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0174,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0175,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0176,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0177,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0178,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0179,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0180,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0181,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0182,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0183,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0184,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0185,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0186,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0187,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0188,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0189,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0190,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0191,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0192,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0193,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0194,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0195,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0196,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0197,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0198,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0199,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0200,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0201,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0202,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0203,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0204,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0205,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0206,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0207,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0208,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0209,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0210,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0211,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0212,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0213,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0214,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0215,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0216,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0217,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0218,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0219,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0220,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0221,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0222,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0223,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0224,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0225,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0226,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0227,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0228,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0229,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0230,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0231,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0232,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0233,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0234,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0235,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0236,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0237,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0238,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0239,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0240,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0241,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0242,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0243,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0244,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0245,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0246,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0247,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen,1,0,False,0.9305
+EV-0248,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0249,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:glucose-lowering regimen; review:blood pressure regimen,2,0,False,0.9315
+EV-0250,poor_glycemic_control,match,review/adjust action present (review),mismatch,expected risk flags but got none,partial,review:blood pressure regimen; review:glucose-lowering regimen,2,0,False,0.9315
+EV-0251,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0252,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0253,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0254,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0255,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0256,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0257,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0258,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0259,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0260,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0261,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0262,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0263,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0264,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0265,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0266,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0267,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9344
+EV-0268,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0269,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0270,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0271,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0272,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9344
+EV-0273,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0274,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0275,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0276,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0277,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0278,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0279,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0280,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0281,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9344
+EV-0282,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0283,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0284,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0285,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0286,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0287,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0288,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0289,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9344
+EV-0290,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0291,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0292,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0293,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0294,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0295,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0296,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0297,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0298,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0299,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0300,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0301,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9344
+EV-0302,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0303,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9344
+EV-0304,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0305,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0306,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0307,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0308,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0309,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0310,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0311,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0312,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0313,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0314,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0315,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0316,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0317,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9344
+EV-0318,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0319,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0320,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0321,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0322,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0323,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0324,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0325,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0326,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0327,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0328,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0329,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0330,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0331,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0332,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0333,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0334,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0335,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0336,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0337,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0338,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0339,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0340,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0341,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0342,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9348
+EV-0343,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0344,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD; review:glucose-lowering regimen,4,2,False,0.9344
+EV-0345,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.935
+EV-0346,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:blood pressure regimen; review:diabetes therapy in CKD,3,2,False,0.9347
+EV-0347,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0348,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9344
+EV-0349,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0350,low_egfr_metformin,match,urgent action present,match,2 risk flag(s) present,match,discontinue:metformin; review:glucose-lowering regimen; review:blood pressure regimen; review:diabetes therapy in CKD,4,2,False,0.9348
+EV-0351,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0352,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0353,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0354,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0355,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0356,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0357,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0358,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0359,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0360,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0361,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8806
+EV-0362,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8681
+EV-0363,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0364,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0365,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0366,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0367,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0368,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0369,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0370,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0371,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0372,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0373,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0374,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8806
+EV-0375,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0376,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8806
+EV-0377,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0378,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0379,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0380,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0381,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0382,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0383,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0384,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0385,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0386,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0387,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0388,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0389,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0390,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0391,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0392,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8806
+EV-0393,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0394,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0395,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0396,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0397,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0398,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0399,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0400,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0401,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0402,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0403,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0404,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8806
+EV-0405,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0406,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0407,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0408,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0409,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0410,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0411,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8681
+EV-0412,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0413,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0414,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0415,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0416,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0417,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0418,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8681
+EV-0419,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0420,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0421,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0422,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0423,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0424,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0425,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0426,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0427,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0428,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0429,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0430,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0431,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0432,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0433,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0434,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8806
+EV-0435,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8681
+EV-0436,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0437,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0438,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8681
+EV-0439,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0440,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0441,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0442,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0443,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0444,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8864
+EV-0445,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0446,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0447,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0448,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8814
+EV-0449,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.8837
+EV-0450,missing_egfr_metformin,partial,expected review/adjust but got: (none),match,2 risk flag(s) present,partial,(none),0,2,True,0.869
+EV-0451,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0452,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0453,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0454,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0455,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0456,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0457,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0458,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0459,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0460,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0461,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0462,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0463,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0464,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0465,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0466,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0467,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0468,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0469,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0470,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0471,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0472,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0473,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0474,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0475,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0476,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0477,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0478,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0479,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0480,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0481,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0482,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0483,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0484,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0485,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0486,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0487,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0488,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0489,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0490,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0491,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0492,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0493,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0494,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0495,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0496,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0497,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0498,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0499,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0500,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0501,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0502,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0503,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0504,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0505,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0506,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0507,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0508,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0509,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0510,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0511,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0512,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0513,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0514,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0515,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0516,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0517,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0518,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0519,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0520,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0521,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0522,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0523,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0524,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0525,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0526,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0527,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0528,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0529,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0530,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0531,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0532,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0533,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0534,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0535,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0536,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0537,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0538,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0539,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0540,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0541,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0542,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0543,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0544,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0545,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0546,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0547,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0548,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0549,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0550,hyperkalemia_rasi,match,urgent action present,match,2 risk flag(s) present,match,review:lisinopril; review:blood pressure regimen,2,2,False,0.932
+EV-0551,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0552,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0553,warfarin_nsaid,match,discontinue ibuprofen present,match,3 risk flag(s) present,match,discontinue:ibuprofen; review:blood pressure regimen,2,3,False,0.9161
+EV-0554,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0555,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0556,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0557,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0558,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0559,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0560,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0561,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0562,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0563,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0564,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0565,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0566,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0567,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0568,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0569,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0570,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0571,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0572,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0573,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0574,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0575,warfarin_nsaid,match,discontinue ibuprofen present,match,3 risk flag(s) present,match,discontinue:ibuprofen; review:blood pressure regimen,2,3,False,0.9161
+EV-0576,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0577,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0578,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0579,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0580,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0581,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0582,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0583,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0584,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0585,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0586,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0587,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0588,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0589,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0590,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0591,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0592,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0593,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0594,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0595,warfarin_nsaid,match,discontinue ibuprofen present,match,3 risk flag(s) present,match,discontinue:ibuprofen; review:blood pressure regimen,2,3,False,0.9161
+EV-0596,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0597,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0598,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0599,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0600,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0601,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0602,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0603,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0604,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0605,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0606,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0607,warfarin_nsaid,match,discontinue ibuprofen present,match,3 risk flag(s) present,match,discontinue:ibuprofen; review:blood pressure regimen,2,3,False,0.9161
+EV-0608,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0609,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0610,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0611,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0612,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0613,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0614,warfarin_nsaid,match,discontinue ibuprofen present,match,3 risk flag(s) present,match,discontinue:ibuprofen; review:blood pressure regimen,2,3,False,0.9161
+EV-0615,warfarin_nsaid,match,discontinue ibuprofen present,match,3 risk flag(s) present,match,discontinue:ibuprofen; review:blood pressure regimen,2,3,False,0.9161
+EV-0616,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0617,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0618,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0619,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0620,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0621,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0622,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0623,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0624,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0625,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0626,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0627,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0628,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0629,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0630,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0631,warfarin_nsaid,match,discontinue ibuprofen present,match,3 risk flag(s) present,match,discontinue:ibuprofen; review:blood pressure regimen,2,3,False,0.9161
+EV-0632,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0633,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0634,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0635,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0636,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0637,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0638,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0639,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0640,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0641,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0642,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0643,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0644,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0645,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0646,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0647,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0648,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0649,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0650,warfarin_nsaid,match,discontinue ibuprofen present,match,2 risk flag(s) present,match,discontinue:ibuprofen,1,2,False,0.9175
+EV-0651,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0652,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0653,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0654,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0655,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0656,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0657,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0658,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0659,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0660,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0661,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0662,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0663,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0664,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0665,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0666,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0667,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0668,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0669,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0670,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0671,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0672,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0673,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0674,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0675,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0676,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0677,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0678,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0679,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0680,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0681,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0682,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0683,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0684,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0685,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0686,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0687,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0688,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0689,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0690,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0691,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0692,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0693,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0694,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0695,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0696,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0697,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0698,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0699,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0700,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0701,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0702,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0703,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0704,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0705,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0706,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0707,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0708,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0709,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0710,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0711,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0712,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0713,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0714,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0715,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0716,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0717,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0718,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0719,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0720,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0721,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0722,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0723,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0724,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0725,penicillin_allergy_amoxicillin,match,discontinue amoxicillin present,match,2 risk flag(s) present,match,discontinue:amoxicillin; avoid:penicillin-class antibiotics,2,2,False,0.9333
+EV-0726,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0727,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0728,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0729,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0730,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0731,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0732,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0733,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0734,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0735,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0736,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0737,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0738,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0739,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0740,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0741,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0742,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0743,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0744,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0745,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0746,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0747,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0748,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0749,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0750,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0751,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0752,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0753,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0754,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0755,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0756,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0757,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0758,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0759,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0760,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0761,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0762,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0763,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0764,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0765,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0766,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0767,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0768,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0769,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0770,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0771,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0772,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0773,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0774,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0775,cefuroxime_penicillin_allergy,match,review/adjust action present (review),match,2 risk flag(s) present,match,review:cefuroxime; avoid:penicillin-class antibiotics,2,2,False,0.933
+EV-0776,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0777,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0778,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0779,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0780,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0781,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0782,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0783,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0784,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0785,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0786,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0787,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0788,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0789,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0790,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0791,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0792,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0793,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0794,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0795,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0796,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0797,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0798,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0799,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0800,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0801,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0802,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0803,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0804,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0805,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0806,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0807,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0808,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0809,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0810,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0811,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0812,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0813,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0814,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0815,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0816,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0817,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0818,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0819,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0820,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0821,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0822,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0823,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0824,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0825,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0826,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0827,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0828,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0829,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0830,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0831,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0832,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0833,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0834,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0835,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0836,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0837,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0838,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0839,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0840,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0841,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0842,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0843,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0844,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0845,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0846,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0847,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0848,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0849,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0850,severely_elevated_sbp,match,urgent/red-flag assessment triggered (escalated/deferred),mismatch,expected risk flags but got none,partial,(none),0,0,True,
+EV-0851,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0852,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0853,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0854,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0855,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0856,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0857,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0858,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0859,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0860,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0861,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0862,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0863,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0864,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0865,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0866,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0867,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0868,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0869,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0870,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0871,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0872,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0873,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0874,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0875,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0876,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0877,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0878,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0879,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0880,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0881,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0882,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0883,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0884,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0885,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0886,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0887,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0888,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0889,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0890,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0891,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0892,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0893,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0894,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0895,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0896,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0897,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0898,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0899,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0900,unknown_medication,partial,expected review/adjust but got: (none),match,1 risk flag(s) present,partial,(none),0,1,True,0.899
+EV-0901,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0902,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0903,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0904,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0905,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0906,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0907,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0908,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0909,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0910,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0911,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0912,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0913,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0914,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0915,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0916,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0917,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0918,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0919,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0920,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0921,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0922,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0923,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0924,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0925,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0926,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0927,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0928,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0929,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0930,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0931,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0932,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0933,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0934,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0935,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0936,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0937,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0938,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0939,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0940,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0941,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0942,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0943,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0944,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0945,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0946,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0947,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0948,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0949,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0950,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0951,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0952,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0953,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0954,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0955,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0956,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0957,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0958,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0959,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0960,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0961,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0962,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0963,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0964,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0965,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0966,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0967,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0968,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0969,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0970,stable_hypertension,match,no dangerous actions (safe continuation),match,no high/critical flags,match,review:blood pressure regimen,1,0,False,0.9313
+EV-0971,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0972,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0973,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0974,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0975,stable_hypertension,match,"monitor action present, no dangerous actions",match,no high/critical flags,match,monitor:current regimen,1,0,False,0.9279
+EV-0976,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0977,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0978,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0979,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0980,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0981,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0982,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0983,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0984,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0985,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0986,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0987,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0988,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0989,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0990,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0991,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0992,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0993,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0994,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0995,stable_ckd,match,no dangerous actions (safe continuation),match,1 risk flag(s) present,match,review:blood pressure regimen,1,1,False,0.9267
+EV-0996,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0997,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0998,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-0999,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219
+EV-1000,stable_ckd,match,"monitor action present, no dangerous actions",match,1 risk flag(s) present,match,monitor:current regimen,1,1,False,0.9219

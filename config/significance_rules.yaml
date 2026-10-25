@@ -1,0 +1,88 @@
+# Transparent, editable delta-significance rules (Part C.3). No code change needed to tune.
+# significance in [0,1]; anything >= replan_threshold triggers selective re-planning.
+defaults:
+  unclassified_significance: 0.35   # FAIL-SAFE for analytes with no rule (would go to an LLM pass; LLM pass not implemented)
+  small_change_significance: 0.2    # beyond noise band but below every rule threshold for a KNOWN analyte
+  generic_noise_rel: 0.05           # noise band for analytes with no entry below
+labs:
+  egfr:
+    noise: {abs: 3.0, rel: 0.05}
+    unsafe_direction: down          # crossing a threshold in this direction is NEVER suppressed as noise
+    thresholds: [60, 45, 30, 20, 15]   # 60/45/30/20 are agent decision thresholds (KDIGO staging, metformin, SGLT2i)
+    threshold_rule: {id: R-EGFR-THRESH, category: ORGAN_FUNCTION_CHANGE, significance: 0.9}
+    magnitude_rules:
+      - {id: R-EGFR-DROP-10, min_abs_change: 10, category: ORGAN_FUNCTION_CHANGE, significance: 0.6}
+  creatinine:
+    noise: {abs: 0.1, rel: 0.08}
+    magnitude_rules:
+      - {id: R-CREAT-RISE-0.3, min_abs_change: 0.3, category: ORGAN_FUNCTION_CHANGE, significance: 0.7}
+  hba1c:
+    noise: {abs: 0.3}
+    unsafe_direction: up
+    thresholds: [7.0, 8.0]          # individual glycaemic goals used by TreatmentAgent
+    threshold_rule: {id: R-HBA1C-GOAL, category: LAB_TREND_SHIFT, significance: 0.6}
+    magnitude_rules:
+      - {id: R-HBA1C-SHIFT, min_abs_change: 0.5, category: LAB_TREND_SHIFT, significance: 0.6}
+  potassium:
+    noise: {abs: 0.2}
+    unsafe_direction: up
+    thresholds: [5.5]               # RAS-inhibitor review threshold used by TreatmentAgent
+    threshold_rule: {id: R-K-THRESH, category: LAB_THRESHOLD_CROSSED, significance: 0.85}
+    reference_range: {low: 3.5, high: 5.2}
+    range_rule: {id: R-K-RANGE, category: LAB_THRESHOLD_CROSSED, significance: 0.85}
+    magnitude_rules:
+      - {id: R-K-SHIFT, min_abs_change: 0.6, category: LAB_TREND_SHIFT, significance: 0.4}
+  sodium:
+    noise: {abs: 2.0}
+    reference_range: {low: 135, high: 145}
+    range_rule: {id: R-NA-RANGE, category: LAB_THRESHOLD_CROSSED, significance: 0.7}
+  alt:
+    noise: {abs: 5.0, rel: 0.10}
+    uln: 40                         # upper limit of normal, lab specific (U/L)
+    multiple_rule: {id: R-ALT-3XULN, multiple: 3, category: LAB_THRESHOLD_CROSSED, significance: 0.85}
+  ast:
+    noise: {abs: 5.0, rel: 0.10}
+    uln: 40
+    multiple_rule: {id: R-AST-3XULN, multiple: 3, category: LAB_THRESHOLD_CROSSED, significance: 0.85}
+  glucose:
+    noise: {abs: 30.0}
+    magnitude_rules:
+      - {id: R-GLU-SHIFT, min_abs_change: 60, category: LAB_TREND_SHIFT, significance: 0.4}
+  inr:
+    noise: {abs: 0.2}
+    magnitude_rules:
+      - {id: R-INR-SHIFT, min_abs_change: 0.5, category: LAB_TREND_SHIFT, significance: 0.6}
+  hemoglobin:
+    noise: {abs: 0.5}
+    magnitude_rules:
+      - {id: R-HGB-DROP, min_abs_change: 1.0, category: LAB_TREND_SHIFT, significance: 0.6}
+vitals:
+  systolic_bp:
+    noise: {abs: 10}
+    thresholds: [130]               # BP target used by TreatmentAgent (upward crossing is unsafe)
+    threshold_rule: {id: R-SBP-TARGET, significance: 0.45}
+    instability: {high: 180, low: 90, id: R-SBP-INSTAB, significance: 0.85}
+    shift: {min_abs_change: 20, id: R-SBP-SHIFT, significance: 0.45}
+  heart_rate:
+    noise: {abs: 10}
+    instability: {high: 120, low: 50, id: R-HR-INSTAB, significance: 0.85}
+conditions:
+  new: {id: R-DX-NEW, significance: 0.7}
+  new_high_impact: {id: R-DX-NEW-HIGH, significance: 1.0, keywords: [pregnan]}
+  resolved: {id: R-DX-RESOLVED, significance: 0.6}
+medications:
+  added_default: {id: R-MED-ADD, significance: 0.5}
+  added_high_risk:                  # class -> significance
+    anticoagulant: 0.9
+    nsaid: 0.9
+    qt_prolonging: 0.9
+    raas_inhibitor: 0.7
+  stopped: {id: R-MED-STOP, significance: 0.6}
+  dose_changed: {id: R-MED-DOSE, significance: 0.5}
+allergies:
+  new: {id: R-ALLERGY-NEW, significance: 1.0}
+  removed: {id: R-ALLERGY-REMOVED, significance: 0.6}
+demographics:
+  age_crossings: [65]
+  age_crossing: {id: R-AGE-65, significance: 0.5}
+  gender_change: {id: R-GENDER, significance: 0.4}

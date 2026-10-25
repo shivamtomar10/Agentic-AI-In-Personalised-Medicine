@@ -1,0 +1,31 @@
+# Fitted by `python run.py calibrate` on SYNTHETIC labelled cases. train seeds [100, 101, 102]; out-of-sample AURC fixed 0.0749 vs learned 0.0616
+mode: logistic
+features:
+- agent
+- coverage
+- consistency
+- recency
+- completeness
+- knowledge
+weights:
+- 0.814428
+- 0.0
+- 0.0
+- 0.024292
+- 0.005451
+- 0.698156
+bias: 1.574201
+mean:
+- 0.855375
+- 1.0
+- 1.0
+- 0.920134
+- 0.874493
+- 0.82488
+std:
+- 0.053513
+- 1.0
+- 1.0
+- 0.029064
+- 0.220129
+- 0.366865

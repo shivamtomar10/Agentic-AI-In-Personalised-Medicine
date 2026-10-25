@@ -1,0 +1,48 @@
+# INDEPENDENT held-out clinical scenarios for safety regression testing.
+# Authored with independent clinical cases to test polypharmacy, severe renal impairment,
+# severe hyperkalemia, hepatic toxicity, and high-risk drug interactions.
+
+base: &base
+  birth_date: "1960-04-12"
+  gender: male
+  conditions: ["Type 2 diabetes mellitus (E11.9)", "Chronic kidney disease stage 3 (N18.3)"]
+  meds: ["Metformin 1000 mg BID", "Lisinopril 20 mg QD"]
+  allergies: []
+  labs: {eGFR: 45, Potassium: 4.8, HbA1c: 7.5, Creatinine: 1.5, ALT: 30}
+  vitals: {SBP: 130}
+  prev_time: "2026-01-10"
+  curr_time: "2026-06-15"
+
+scenarios:
+  - id: indep_01_severe_hyperkalemia_raas
+    family: "Severe hyperkalemia (K+ 6.2) on Lisinopril: discontinue/hold ACEi"
+    prev: {<<: *base}
+    curr: {<<: *base, labs: {eGFR: 40, Potassium: 6.2, HbA1c: 7.5, Creatinine: 1.6, ALT: 30}}
+    expect:
+      required_flags_involving: [[organ_adjustment, [lisinopril]]]
+      required_actions: [[[discontinue, review, hold, avoid], lisinopril]]
+
+  - id: indep_02_egfr_crash_metformin_stop
+    family: "eGFR drops from 45 to 22: mandatory metformin discontinuation"
+    prev: {<<: *base}
+    curr: {<<: *base, labs: {eGFR: 22, Potassium: 4.8, HbA1c: 7.5, Creatinine: 2.8, ALT: 30}}
+    expect:
+      required_flags_involving: [[contraindication, [metformin]]]
+      required_actions: [[[discontinue, stop], metformin]]
+      forbidden_actions: [[continue, metformin]]
+
+  - id: indep_03_severe_hepatic_injury_statin
+    family: "ALT 30 -> 350 (10x ULN) on Atorvastatin: stop statin"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Atorvastatin 40 mg QD"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Atorvastatin 40 mg QD"], labs: {eGFR: 55, Potassium: 4.5, HbA1c: 7.2, Creatinine: 1.1, ALT: 350}}
+    expect:
+      required_flags_involving: [[hepatic, [atorvastatin]]]
+      required_actions: [[[discontinue, review, avoid], atorvastatin]]
+
+  - id: indep_04_penicillin_anaphylaxis_amoxicillin
+    family: "New Penicillin anaphylaxis documented while taking Amoxicillin"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Amoxicillin 500 mg TID"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Amoxicillin 500 mg TID"], allergies: ["Penicillin (anaphylaxis)"]}
+    expect:
+      required_flags_involving: [[allergy, [amoxicillin]]]
+      required_actions: [[[discontinue, avoid], amoxicillin]]

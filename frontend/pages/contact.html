@@ -1,0 +1,21 @@
+<!--meta title="Contact" description="Send a question, correction or accessibility report about this project." script="contact.js" nav="contact" -->
+<div class="page-head"><div class="wrap"><h1>Contact</h1><p class="lead">Questions about the project, corrections, or a problem with the site.</p></div></div>
+<div class="page-body"><div class="wrap cols-2">
+  <form id="contact-form" class="panel" novalidate>
+    <div class="notice bad" style="margin-top:0"><p><strong>Not for health questions.</strong> Do not include health details, phone numbers or ID numbers. We cannot give medical advice. In an emergency, call your local emergency number.</p></div>
+    <div id="form-msg" tabindex="-1"></div>
+    <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" maxlength="80" required></div>
+    <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+    <div class="field"><label for="topic">Topic</label>
+      <select id="topic" name="topic"><option value="general">General question</option><option value="account">Account help</option><option value="clinician-access">Clinician access</option><option value="research">Research and results</option><option value="accessibility">Accessibility</option><option value="problem">Report a problem</option></select></div>
+    <div class="field"><label for="message">Message <span class="hint">10 to 2000 characters</span></label><textarea id="message" name="message" rows="6" maxlength="2000" required></textarea></div>
+    <div class="honey" aria-hidden="true"><label>Leave this empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
+    <button class="btn" type="submit">Send message</button>
+  </form>
+  <div class="prose">
+    <h2>What happens next</h2>
+    <p>Your message is stored with a reference number, shown after you send it. This is a research project, so replies may take a few days.</p>
+    <h2>Other places to look</h2>
+    <ul><li><a href="/how-it-works">How it works</a></li><li><a href="/about#limits">Known limitations</a></li><li><a href="/accessibility">Accessibility statement</a></li><li><a href="/privacy">Privacy</a></li></ul>
+  </div>
+</div></div>

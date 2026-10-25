@@ -1,0 +1,14 @@
+<!--meta title="My portal" description="Your check-ins, results and clinician decisions." script="portal.js" robots="noindex" bodyclass="app-page" -->
+<div class="app">
+  <aside class="side">
+    <div class="who-card"><b id="who-name">&nbsp;</b><span id="who-id"></span></div>
+    <nav aria-label="Portal">
+      <a href="#/" data-route="">Overview</a>
+      <a href="#/check-in" data-route="check-in">New check-in</a>
+      <a href="#/cases" data-route="cases">My cases <span class="badge" id="waiting-badge" hidden></span></a>
+      <a href="#/prescriptions" data-route="prescriptions">My prescriptions</a>
+      <a href="#/account" data-route="account">Account</a>
+    </nav>
+  </aside>
+  <div class="content" id="view" tabindex="-1"><p class="muted">Loading...</p></div>
+</div>

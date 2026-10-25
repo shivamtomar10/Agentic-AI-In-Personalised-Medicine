@@ -1,0 +1,20 @@
+# Declarative mapping: delta category -> agents whose INPUTS changed and must re-run (Part C.3).
+# Derived from the agents' actual input dependencies (see docs/architecture.md), so that no
+# cached agent output can go stale. NOTE: this is broader than the illustrative example in the
+# prompt pack (ORGAN_FUNCTION_CHANGE -> {treatment, risk_assessment}); a cached differential
+# would otherwise still report the old CKD stage.
+context_agents: [patient_data, ehr_analysis]   # cheap context builders: re-run on any significant delta
+categories:
+  NEW_DIAGNOSIS: [diagnostic, medical_knowledge, treatment, risk_assessment]
+  RESOLVED_DIAGNOSIS: [diagnostic, medical_knowledge, treatment, risk_assessment]
+  MEDICATION_ADDED: [medical_knowledge, treatment, risk_assessment]
+  MEDICATION_STOPPED: [treatment, risk_assessment]
+  DOSE_CHANGED: [treatment, risk_assessment]
+  NEW_ALLERGY: [treatment, risk_assessment]
+  ALLERGY_REMOVED: [treatment, risk_assessment]
+  LAB_THRESHOLD_CROSSED: [diagnostic, medical_knowledge, treatment, risk_assessment]
+  LAB_TREND_SHIFT: [diagnostic, treatment]
+  ORGAN_FUNCTION_CHANGE: [diagnostic, medical_knowledge, treatment, risk_assessment]
+  VITAL_INSTABILITY: [diagnostic, treatment, risk_assessment]
+  DEMOGRAPHIC_CHANGE: [diagnostic, treatment, risk_assessment]
+  NOISE: []

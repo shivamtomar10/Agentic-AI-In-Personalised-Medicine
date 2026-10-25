@@ -1,0 +1,33 @@
+<!--meta title="About" description="About CareTrace: an AI-powered Clinical Decision Support System for longitudinal, personalised medicine — built on evidence-based clinical guidelines." nav="about" -->
+<div class="page-head"><div class="wrap"><h1>About CareTrace</h1><p class="lead">Longitudinal, state-aware Clinical Decision Support — rules from real clinical guidelines, every recommendation reviewed by a clinician.</p></div></div>
+<div class="page-body"><div class="wrap"><div class="prose">
+<h2>What it is</h2>
+<p>{{site_name}} is an Agentic AI Clinical Decision Support System (CDSS) built for personalised medicine. It implements a multi-agent design with a temporal layer: versioned patient records, rule-based change detection, selective re-planning, claim-level provenance, adversarial validation, calibrated abstention and mandatory clinician sign-off before any suggestion reaches the patient.</p>
+<p>The system uses rules encoded from peer-reviewed clinical guidelines (ADA 2024, KDIGO 2022/2024, FDA drug labelling, AGS Beers Criteria 2023, JACI 2022) to generate drug safety alerts, differential diagnoses and personalised treatment suggestions.</p>
+<p>Built by Shivam Tomar. The website is the patient-facing and clinician-facing layer over the clinical AI engine.</p>
+
+<h2 id="limits">Important limitations — please read</h2>
+<div class="notice bad"><p><strong>CareTrace is not a certified medical device and does not provide medical advice.</strong> It is a Clinical Decision Support tool designed to assist, not replace, a qualified clinician. In an emergency, call 112 or your local emergency number immediately. Never change your medication based solely on what you see here — all outputs require clinician review and approval.</p></div>
+<ul>
+<li>The knowledge library covers the most common drug classes and clinical guidelines for diabetes, kidney disease, hypertension and anticoagulation. Medicines and conditions outside this scope are flagged as "not assessed".</li>
+<li>Clinical decisions come from encoded guideline rules and evidence retrieval — not from a language model "guessing". The AI agents reason step-by-step from your data.</li>
+<li>An optional Large Language Model (LLM) is used only for plain-language narration and complex escalation — it does not make clinical decisions and never receives your personal identifiers.</li>
+<li>The evidence linker is lexical and can be affected by unusual phrasing. Every linked claim shows its source so clinicians can verify.</li>
+</ul>
+<p>The complete list of known limitations is in <code>docs/limitations.md</code>, and the <a href="/research">Research</a> page shows evaluation results with their caveats.</p>
+
+<h2>Safety commitments built into the code</h2>
+<ul>
+<li>No output is presented to the patient as final until a named clinician has approved, modified or rejected it.</li>
+<li>Every clinical claim carries a citation to a guideline or FDA label, or is withheld and flagged.</li>
+<li>The system says when it is uncertain and defers instead of guessing — abstention is shown, never hidden.</li>
+<li>All reviews and system events are written to a hash-chained audit log so tampering is detectable.</li>
+<li>Your personal identifiers (name, date of birth) are never included in queries sent to any AI model.</li>
+</ul>
+
+<h2>Your data and privacy</h2>
+<p>Your health data is stored locally on the server running CareTrace. Lab values, medications and allergies you enter are associated only with your account. Free-text notes are screened to prevent accidental submission of contact details (email, phone, national ID). Please do not include other people's identifiable information in any field.</p>
+
+<h2>Get in touch</h2>
+<p>Questions, corrections or accessibility problems? Use the <a href="/contact">contact form</a>.</p>
+</div></div></div>

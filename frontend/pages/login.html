@@ -1,0 +1,24 @@
+<!--meta title="Sign in" description="Sign in to your patient portal or clinician console." script="auth.js" nav="" robots="noindex" -->
+<div class="wrap auth" data-auth="login">
+  <section class="auth-card" aria-labelledby="h">
+    <h1 id="h">Sign in</h1>
+    <div class="seg" role="tablist" aria-label="Account type">
+      <button type="button" role="tab" id="tab-patient" aria-selected="true" data-role="patient">Patient</button>
+      <button type="button" role="tab" id="tab-clinician" aria-selected="false" data-role="clinician">Clinician</button>
+    </div>
+    <form id="form" novalidate aria-labelledby="h">
+      <div id="form-msg" tabindex="-1"></div>
+      <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="username" required></div>
+      <div class="field"><label for="password">Password</label>
+        <div class="pw-wrap"><input id="password" name="password" type="password" autocomplete="current-password" required><button type="button" class="btn btn-plain btn-sm pw-toggle" aria-controls="password" aria-pressed="false">Show</button></div></div>
+      <button class="btn" type="submit" style="width:100%">Sign in</button>
+    </form>
+    <div class="links-row"><a href="/forgot-password">Forgot your password?</a><a id="alt-link" href="/register">Create a patient account</a></div>
+    <div class="demo-box" id="demo" hidden></div>
+  </section>
+  <aside class="auth-aside">
+    <h2 id="aside-h">Your patient portal</h2>
+    <ul id="aside-list"><li>Send a check-in and see what was flagged.</li><li>Follow your results over time.</li><li>See what your clinician decided, and why.</li></ul>
+    <p class="fine">CareTrace is a Clinical Decision Support tool. All outputs require clinician review.</p>
+  </aside>
+</div>

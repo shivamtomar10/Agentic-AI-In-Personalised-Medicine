@@ -1,0 +1,27 @@
+<!--meta title="Create a patient account" description="Create a patient account to send check-ins and see your clinician's decisions." script="auth.js" nav="" robots="noindex" -->
+<div class="wrap auth" data-auth="register">
+  <section class="auth-card" aria-labelledby="h">
+    <h1 id="h">Create a patient account</h1>
+    <p class="muted">Already registered? <a href="/login">Sign in</a></p>
+    <form id="form" novalidate>
+      <div id="form-msg" tabindex="-1"></div>
+      <div class="field"><label for="display_name">Your name</label><input id="display_name" name="display_name" autocomplete="name" maxlength="80" required></div>
+      <div class="field"><label for="email">Email address <span class="hint">Use an address like name@example.com. It is only used to sign in and reset your password.</span></label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div class="grid-2">
+        <div class="field"><label for="birth_date">Date of birth</label><input id="birth_date" name="birth_date" type="date" autocomplete="bday" required></div>
+        <div class="field"><label for="gender">Gender</label><select id="gender" name="gender" required><option value="">Choose</option><option value="female">Female</option><option value="male">Male</option><option value="other">Other</option><option value="unknown">Prefer not to say</option></select></div>
+      </div>
+      <div class="field"><label for="password">Password <span class="hint">At least 10 characters. A few unrelated words works well.</span></label>
+        <div class="pw-wrap"><input id="password" name="password" type="password" autocomplete="new-password" minlength="10" required><button type="button" class="btn btn-plain btn-sm pw-toggle" aria-controls="password" aria-pressed="false">Show</button></div>
+        <div class="meter" aria-hidden="true"><i id="meter"></i></div><div class="fine" id="meter-label" aria-live="polite"></div></div>
+      <div class="field"><label class="check"><input type="checkbox" name="accept_terms" id="accept_terms"><span>I have read the <a href="/terms" target="_blank">Terms of use</a> and <a href="/privacy" target="_blank">Privacy policy</a>, and I understand that CareTrace is a decision support tool, not a replacement for my clinician.</span></label></div>
+      <button class="btn" type="submit" style="width:100%">Create account</button>
+    </form>
+    <p class="fine" style="margin-top:1rem">Are you a clinician? <a href="/register/clinician">Register here</a>.</p>
+  </section>
+  <aside class="auth-aside">
+    <h2>What you get</h2>
+    <ul><li>A private portal that shows only your own records.</li><li>A random patient ID (like PT-K7M2Q9XA). Only this ID enters the analysis, never your email.</li><li>Your last medicines, allergies and results are remembered for the next check-in.</li></ul>
+    <div class="notice warn"><p><strong>Not a replacement for your clinician.</strong> CareTrace provides decision support to assist your clinical team. All outputs require review and approval by a qualified clinician before any action is taken. In an emergency, contact emergency services immediately.</p></div>
+  </aside>
+</div>

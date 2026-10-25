@@ -1,0 +1,85 @@
+# HELD-OUT adaptation suite (written from clinical guidance BEFORE being run; expectations are never edited to pass).
+# Different drugs/thresholds/phrasing from adaptation.yaml. Still authored by the system's author, so it is only
+# semi-independent: the strongest version of this check is scenarios written by someone who has not seen the rules
+# (a classmate or the supervisor). See docs/limitations.md. Expectations use verb-sets, not the system's exact verbs.
+base: &base
+  birth_date: "1962-11-03"
+  gender: female
+  conditions: ["Type 2 diabetes mellitus (E11.9)", "Hypertension (I10)"]
+  meds: ["Metformin 500 mg BID", "Losartan 50 mg QD"]
+  allergies: []
+  labs: {eGFR: 66, Potassium: 4.5, HbA1c: 6.8, Creatinine: 0.9, ALT: 25}
+  vitals: {SBP: 122}
+  prev_time: "2026-02-02"
+  curr_time: "2026-06-08"
+scenarios:
+  - id: h01_metformin_dose_reduction_band
+    family: "eGFR 66 -> 38 on metformin: reduce, do not stop"
+    prev: {<<: *base}
+    curr: {<<: *base, labs: {eGFR: 38, Potassium: 4.5, HbA1c: 6.8, Creatinine: 1.6, ALT: 25}}
+    expect: {required_actions: [[adjust_dose, metformin]], forbidden_actions: [[continue, metformin], [discontinue, metformin]]}
+  - id: h02_nsaid_in_advanced_ckd
+    family: "NSAID with eGFR 55 -> 25"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Naproxen 500 mg BID"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Naproxen 500 mg BID"], labs: {eGFR: 25, Potassium: 4.6, HbA1c: 6.8, Creatinine: 2.2, ALT: 25}}
+    expect: {required_actions: [[[avoid, discontinue, review], naproxen], [discontinue, metformin]]}
+  - id: h03_warfarin_plus_amiodarone
+    family: "amiodarone started in a patient on warfarin"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Warfarin 3 mg QD"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Warfarin 3 mg QD", "Amiodarone 200 mg QD"]}
+    expect: {required_flags_involving: [[drug_interaction, [warfarin, amiodarone]]], required_actions: [[[review, adjust_dose, monitor, order_lab], warfarin]]}
+  - id: h04_cephalosporin_with_penicillin_allergy
+    family: "penicillin allergy recorded while on a cephalosporin"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Cefuroxime 500 mg BID"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Cefuroxime 500 mg BID"], allergies: ["Penicillin (anaphylaxis)"]}
+    expect: {required_flags_involving: [[allergy, [cefuroxime]]], required_actions: [[[review, avoid, discontinue], cefuroxime]]}
+  - id: h05_benzodiazepine_at_65
+    family: "turns 65 while on lorazepam"
+    prev: {<<: *base, birth_date: "1961-09-01", meds: ["Metformin 500 mg BID", "Lorazepam 1 mg QD"], prev_time: "2026-02-02"}
+    curr: {<<: *base, birth_date: "1961-09-01", meds: ["Metformin 500 mg BID", "Lorazepam 1 mg QD"], curr_time: "2026-10-05"}
+    expect: {required_flags_involving: [[beers, [lorazepam]]], required_actions: [[[review, discontinue], lorazepam]]}
+  - id: h06_statin_hepatotoxicity
+    family: "ALT 25 -> 180 on simvastatin"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Simvastatin 40 mg QD"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Simvastatin 40 mg QD"], labs: {eGFR: 66, Potassium: 4.5, HbA1c: 6.8, Creatinine: 0.9, ALT: 180}}
+    expect: {required_flags_involving: [[hepatic, [simvastatin]]], required_actions: [[[review, discontinue], simvastatin]]}
+  - id: h07_two_qt_drugs
+    family: "ondansetron added to citalopram"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Citalopram 20 mg QD"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Citalopram 20 mg QD", "Ondansetron 4 mg TID"]}
+    expect: {required_flags_involving: [[drug_interaction, [citalopram, ondansetron]]], required_actions: [[[review, discontinue, avoid], ondansetron]]}
+  - id: h08_pregnancy_on_warfarin
+    family: "pregnancy documented in a patient on warfarin"
+    prev: {<<: *base, birth_date: "1992-05-20", conditions: ["Atrial fibrillation (I48.91)"], meds: ["Warfarin 5 mg QD"]}
+    curr: {<<: *base, birth_date: "1992-05-20", conditions: ["Atrial fibrillation (I48.91)", "Pregnancy (Z33.1)"], meds: ["Warfarin 5 mg QD"]}
+    expect: {required_flags_involving: [[pregnancy, [warfarin]]], required_actions: [[[discontinue, review], warfarin]], forbidden_actions: [[continue, warfarin]]}
+  - id: h09_sulfa_allergy_with_cotrimoxazole
+    family: "sulfonamide allergy while on co-trimoxazole"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Sulfamethoxazole-trimethoprim 800 mg BID"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Sulfamethoxazole-trimethoprim 800 mg BID"], allergies: ["Sulfonamide (hives)"]}
+    expect: {required_flags_involving: [[allergy, [sulfamethoxazole-trimethoprim]]], required_actions: [[[discontinue, avoid, review], sulfamethoxazole-trimethoprim]]}
+  - id: h10_dvt_resolved_on_apixaban
+    family: "DVT documented as resolved, apixaban continues"
+    prev: {<<: *base, conditions: ["Deep vein thrombosis (I82.40)"], meds: ["Apixaban 5 mg BID"]}
+    curr: {<<: *base, conditions: [["I82.40", "Deep vein thrombosis", "resolved"]], meds: ["Apixaban 5 mg BID"]}
+    expect: {required_actions: [[review, apixaban]]}
+  - id: h11_hyperkalaemia_on_arb
+    family: "potassium 4.5 -> 6.0 on losartan"
+    prev: {<<: *base}
+    curr: {<<: *base, labs: {eGFR: 58, Potassium: 6.0, HbA1c: 6.8, Creatinine: 1.1, ALT: 25}}
+    expect: {required_actions: [[[review, discontinue, adjust_dose], losartan]]}
+  - id: h12_do_not_overtreat_older_adult
+    family: "HbA1c 7.0 -> 7.6 in a 78-year-old: no intensification"
+    prev: {<<: *base, birth_date: "1948-03-14", labs: {eGFR: 62, Potassium: 4.5, HbA1c: 7.0, Creatinine: 1.0, ALT: 25}}
+    curr: {<<: *base, birth_date: "1948-03-14", labs: {eGFR: 62, Potassium: 4.5, HbA1c: 7.6, Creatinine: 1.0, ALT: 25}}
+    expect: {forbidden_actions: [[[review, prescribe, adjust_dose], glucose-lowering]]}
+  - id: h13_unmodelled_drug_must_be_disclosed
+    family: "acenocoumarol (an anticoagulant) added to an NSAID user"
+    prev: {<<: *base, meds: ["Metformin 500 mg BID", "Ibuprofen 400 mg TID"]}
+    curr: {<<: *base, meds: ["Metformin 500 mg BID", "Ibuprofen 400 mg TID", "Acenocoumarol 2 mg QD"]}
+    expect: {required_flags_involving: [[data_quality, [acenocoumarol]]]}
+negative_control:
+  id: h14_noise_only
+  family: "measurement noise only"
+  prev: {<<: *base}
+  curr: {<<: *base, labs: {eGFR: 65, Potassium: 4.6, HbA1c: 6.9, Creatinine: 0.9, ALT: 27}, vitals: {SBP: 124}}

@@ -1,0 +1,14 @@
+<!--meta title="Clinician console" description="Review queue, patient records and decisions." script="clinician.js" robots="noindex" bodyclass="app-page" -->
+<div class="app">
+  <aside class="side">
+    <div class="who-card"><b id="who-name">&nbsp;</b><span id="who-id"></span></div>
+    <nav aria-label="Console">
+      <a href="#/" data-route="">Review queue <span class="badge" id="waiting-badge" hidden></span></a>
+      <a href="#/patients" data-route="patients">Patients</a>
+      <a href="#/rx-audit" data-route="rx-audit">Prescription audit</a>
+      <a href="#/account" data-route="account">Account</a>
+      <a href="/research">Research results</a>
+    </nav>
+  </aside>
+  <div class="content" id="view" tabindex="-1"><p class="muted">Loading...</p></div>
+</div>

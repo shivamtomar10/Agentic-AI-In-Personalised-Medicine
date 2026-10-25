@@ -1,0 +1,91 @@
+<!--meta tagline="Decision support that shows its work" description="Follow-up care that notices what changed. Each new set of results is compared with the last, and a clinician reviews what matters, with the evidence attached." script="home.js" nav="" -->
+<section class="hero">
+  <div class="wrap split">
+    <div>
+      <h1>Follow-up care that notices what changed.</h1>
+      <p class="lead">Every time new results arrive, {{site_name}} compares them with the last visit, works out what actually matters, and puts it in front of a clinician with the evidence attached. Nothing counts as advice until a named clinician has signed it off.</p>
+      <div class="btn-row">
+        <a class="btn" href="/register">Create a patient account</a>
+        <a class="btn btn-quiet" href="/login?role=clinician">Clinician sign in</a>
+      </div>
+      <p class="fine">CareTrace is a Clinical Decision Support tool. Always follow your clinician's advice. Not for use in emergencies &mdash; call 112 / your local emergency number immediately if needed.</p>
+    </div>
+
+    <section class="trace" aria-labelledby="trace-h" id="trace">
+      <div class="trace-head">
+        <h2 id="trace-h">One patient, three visits</h2>
+        <p>Pick a visit to see what the system did with the new results.</p>
+      </div>
+      <div class="rail" role="tablist" aria-label="Visits" id="rail"></div>
+      <div class="trace-body" role="tabpanel" id="trace-panel" aria-live="polite"></div>
+    </section>
+  </div>
+</section>
+
+<section class="band alt" aria-labelledby="find-h">
+  <div class="wrap">
+    <h2 id="find-h">Look something up</h2>
+    <p class="muted prose">Search the library of medicines and guidance excerpts the system draws on. Every entry names its source.</p>
+    <form class="find" action="/library" method="get" role="search">
+      <label class="sr-only" for="home-q">Search medicines and guidance</label>
+      <input id="home-q" name="q" type="search" placeholder="Try metformin, penicillin allergy or potassium" autocomplete="off" required minlength="2">
+      <button class="btn" type="submit">Search</button>
+    </form>
+    <div class="chips" aria-label="Example searches">
+      <a href="/library?q=metformin">metformin</a><a href="/library?q=penicillin+allergy">penicillin allergy</a><a href="/library?q=potassium">potassium</a><a href="/library?q=ibuprofen+kidney">ibuprofen and the kidneys</a><a href="/library?q=warfarin">warfarin</a>
+    </div>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="who-h">
+  <div class="wrap">
+    <h2 id="who-h">Built for two people</h2>
+    <div class="who-grid">
+      <div class="panel">
+        <h3>If you are a patient</h3>
+        <p class="muted">Share your latest results and how you feel. You see what was flagged, and later, what your clinician decided and why.</p>
+        <ul><li>Enter labs, medicines and allergies once; they are remembered for next time.</li><li>See your own trends across visits.</li><li>Get a plain-language note when a clinician has reviewed your case.</li></ul>
+        <a class="btn" href="/register">Create a patient account</a>
+      </div>
+      <div class="panel">
+        <h3>If you are a clinician</h3>
+        <p class="muted">Review a queue of cases where the system shows the changes it found, the rules that fired and the sources behind each suggestion.</p>
+        <ul><li>Approve, modify or reject with a written rationale.</li><li>Your decision is recorded under your staff ID in a tamper-evident log.</li><li>The system says when it is unsure, and what it withheld.</li></ul>
+        <a class="btn btn-quiet" href="/login?role=clinician">Clinician sign in</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band alt" aria-labelledby="how-h">
+  <div class="wrap">
+    <h2 id="how-h">How a check-in works</h2>
+    <ol class="steps">
+      <li><h3>You share new results</h3><p class="muted">Labs, medicines, allergies and a few words on how you feel. Words like "chest pain" trigger an immediate prompt to seek urgent care.</p></li>
+      <li><h3>The system compares with your history</h3><p class="muted">Rules decide whether anything moved by more than normal measurement variation. If not, earlier reasoning is reused. If so, the affected checks run again.</p></li>
+      <li><h3>A clinician decides</h3><p class="muted">Suggestions wait in a review queue. Each one links to its evidence. Only a clinician's sign-off turns a suggestion into a decision.</p></li>
+    </ol>
+    <p style="margin-top:2rem"><a href="/how-it-works">Read the full explanation</a></p>
+  </div>
+</section>
+
+<section class="band dark" aria-labelledby="safe-h">
+  <div class="wrap">
+    <h2 id="safe-h">What it will not do</h2>
+    <ul class="commit">
+      <li><b>Act without a clinician</b><span>Every output carries a "requires clinician review" state until a named clinician approves, modifies or rejects it.</span></li>
+      <li><b>State a claim without a source</b><span>A claim with no retrievable evidence is withheld from the approved output and shown to the clinician as withheld.</span></li>
+      <li><b>Pretend to be certain</b><span>When confidence is low, the system defers instead of recommending, and says why.</span></li>
+      <li><b>Hide what happened</b><span>Reviews and system events go into a hash-chained audit log, so tampering is detectable.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="res-h">
+  <div class="wrap">
+    <h2 id="res-h">What the tests show so far</h2>
+    <p class="muted prose">Evaluated on clinical guideline scenarios (ADA 2024, KDIGO 2022/2024, FDA labelling, AGS Beers 2023). These figures test rule correctness against known guideline thresholds.</p>
+    <div class="stat-row" id="home-stats" aria-live="polite"></div>
+    <p><a href="/research">See the full results and their limits</a></p>
+  </div>
+</section>

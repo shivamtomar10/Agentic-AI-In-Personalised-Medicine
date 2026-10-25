@@ -1,0 +1,68 @@
+# Ground-truth adaptation scenarios (Part A.3 / C.9). Each: a previous encounter, a current encounter, and what a
+# correct recommendation MUST contain. Authored by hand from the guideline statements in data/knowledge (synthetic patients).
+base: &base
+  birth_date: "1958-05-10"
+  gender: male
+  conditions: ["Type 2 diabetes mellitus (E11.9)", "Hypertension (I10)"]
+  meds: ["Metformin 1000 mg BID", "Lisinopril 20 mg QD"]
+  allergies: []
+  labs: {eGFR: 62, Potassium: 4.4, HbA1c: 6.9, Creatinine: 1.1, ALT: 28}
+  vitals: {SBP: 124}
+  prev_time: "2026-01-10"
+  curr_time: "2026-05-12"
+scenarios:
+  - id: a_egfr_below_30_on_metformin
+    family: "eGFR decline across 30 on metformin"
+    prev: {<<: *base}
+    curr: {<<: *base, labs: {eGFR: 24, Potassium: 4.6, HbA1c: 6.9, Creatinine: 2.6, ALT: 28}}
+    expect: {required_flags: ["RF-METFORMIN-EGFR30"], required_actions: [[discontinue, metformin]], forbidden_actions: [[continue, metformin], [adjust_dose, metformin]]}
+  - id: b_new_penicillin_allergy
+    family: "new penicillin allergy"
+    prev: {<<: *base, meds: ["Metformin 1000 mg BID"]}
+    curr: {<<: *base, meds: ["Metformin 1000 mg BID"], allergies: ["Penicillin (anaphylaxis)"]}
+    expect: {required_flags: ["RF-ALLERGY-PENICILLIN"], required_actions: [[avoid, penicillin]]}
+  - id: c_new_pregnancy_on_ace_inhibitor
+    family: "new pregnancy while on an ACE inhibitor"
+    prev: {<<: *base, birth_date: "1994-03-02", gender: female, conditions: ["Hypertension (I10)"], meds: ["Lisinopril 10 mg QD"]}
+    curr: {<<: *base, birth_date: "1994-03-02", gender: female, conditions: ["Hypertension (I10)", "Pregnancy (Z33.1)"], meds: ["Lisinopril 10 mg QD"]}
+    expect: {required_flags: ["RF-PREGNANCY-LISINOPRIL"], required_actions: [[discontinue, lisinopril]]}
+  - id: d_new_anticoagulant_with_nsaid
+    family: "new anticoagulant with existing NSAID"
+    prev: {<<: *base, meds: ["Metformin 1000 mg BID", "Ibuprofen 400 mg TID"]}
+    curr: {<<: *base, meds: ["Metformin 1000 mg BID", "Ibuprofen 400 mg TID", "Warfarin 5 mg QD"]}
+    expect: {required_flags: ["RF-DDI-IBUPROFEN-WARFARIN"], required_actions: [[discontinue, ibuprofen]]}
+  - id: e_hba1c_rise
+    family: "HbA1c 6.9 -> 9.4"
+    prev: {<<: *base, labs: {eGFR: 80, Potassium: 4.4, HbA1c: 6.9, Creatinine: 1.0, ALT: 28}}
+    curr: {<<: *base, labs: {eGFR: 80, Potassium: 4.4, HbA1c: 9.4, Creatinine: 1.0, ALT: 28}}
+    expect: {required_actions: [[review, glucose-lowering]]}
+  - id: f_hyperkalaemia_on_rasi
+    family: "potassium 4.4 -> 5.8 on ACE inhibitor"
+    prev: {<<: *base}
+    curr: {<<: *base, labs: {eGFR: 60, Potassium: 5.8, HbA1c: 6.9, Creatinine: 1.2, ALT: 28}}
+    expect: {required_flags: ["RF-HYPERK-RASI"], required_actions: [[review, lisinopril]]}
+  - id: g_new_qt_combination
+    family: "new QT-prolonging combination"
+    prev: {<<: *base, meds: ["Metformin 1000 mg BID", "Ondansetron 4 mg TID"]}
+    curr: {<<: *base, meds: ["Metformin 1000 mg BID", "Ondansetron 4 mg TID", "Azithromycin 250 mg QD"]}
+    expect: {required_flags: ["RF-DDI-AZITHROMYCIN-ONDANSETRON"], required_actions: [[review, azithromycin]]}
+  - id: h_age_crosses_65_beers
+    family: "age crosses 65 with a Beers drug"
+    prev: {<<: *base, birth_date: "1961-06-15", meds: ["Metformin 1000 mg BID", "Diphenhydramine 25 mg QD"], prev_time: "2026-01-10"}
+    curr: {<<: *base, birth_date: "1961-06-15", meds: ["Metformin 1000 mg BID", "Diphenhydramine 25 mg QD"], curr_time: "2026-09-01"}
+    expect: {required_flags: ["RF-BEERS-DIPHENHYDRAMINE"], required_actions: [[review, diphenhydramine]]}
+  - id: i_alt_3x_uln_on_statin
+    family: "ALT >= 3xULN on a statin"
+    prev: {<<: *base, meds: ["Metformin 1000 mg BID", "Atorvastatin 40 mg QD"]}
+    curr: {<<: *base, meds: ["Metformin 1000 mg BID", "Atorvastatin 40 mg QD"], labs: {eGFR: 62, Potassium: 4.4, HbA1c: 6.9, Creatinine: 1.1, ALT: 150}}
+    expect: {required_flags: ["RF-HEPATIC-ATORVASTATIN"], required_actions: [[review, atorvastatin]]}
+  - id: j_condition_resolved_therapy_review
+    family: "hypertension resolved, ACE inhibitor continues"
+    prev: {<<: *base}
+    curr: {<<: *base, conditions: ["Type 2 diabetes mellitus (E11.9)", ["I10", "Hypertension", "resolved"]]}
+    expect: {required_actions: [[review, lisinopril]]}
+negative_control:
+  id: k_noise_only
+  family: "measurement noise only (no true change)"
+  prev: {<<: *base}
+  curr: {<<: *base, labs: {eGFR: 61, Potassium: 4.5, HbA1c: 6.8, Creatinine: 1.1, ALT: 30}, vitals: {SBP: 126}}

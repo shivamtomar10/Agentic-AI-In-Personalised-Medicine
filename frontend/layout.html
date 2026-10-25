@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#0b6b63">
+<link rel="canonical" href="{{canonical}}">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:type" content="website">
+<link rel="preload" href="/assets/fonts/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css?v={{ver}}">
+<link rel="stylesheet" href="/assets/css/app.css?v={{ver}}">
+</head>
+<body class="{{bodyclass}}">
+<a class="skip" href="#main">Skip to main content</a>
+<div class="proto" role="note">Clinical Decision Support System. Not a replacement for professional medical advice. Outputs require clinician review. <a href="/about">Learn more</a></div>
+<header class="site-header" id="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/"><img src="/assets/img/logo.svg" alt="" width="32" height="32">{{site_name}}</a>
+    <button class="btn btn-quiet btn-sm menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="/how-it-works" data-nav="how">How it works</a>
+      <a href="/library" data-nav="library">Library</a>
+      <a href="/research" data-nav="research">Research</a>
+      <a href="/about" data-nav="about">About</a>
+      <a href="/contact" data-nav="contact">Contact</a>
+    </nav>
+    <div class="bar-actions" id="account-slot">
+      <a class="btn btn-plain btn-sm" href="/login">Sign in</a>
+      <a class="btn btn-sm" href="/register">Create account</a>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+{{content}}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="/"><img src="/assets/img/logo.svg" alt="" width="32" height="32">{{site_name}}</a>
+        <p style="margin-top:.8rem;max-width:22rem">Decision support that shows its work. A hybrid AI system combining clinical guidelines with ML risk modeling.</p>
+      </div>
+      <div><h2>Explore</h2><ul><li><a href="/how-it-works">How it works</a></li><li><a href="/library">Medicines and evidence library</a></li><li><a href="/research">Research results</a></li><li><a href="/about">About</a></li></ul></div>
+      <div><h2>Your account</h2><ul><li><a href="/login">Patient sign in</a></li><li><a href="/login?role=clinician">Clinician sign in</a></li><li><a href="/register">Create patient account</a></li><li><a href="/register/clinician">Clinician registration</a></li></ul></div>
+      <div><h2>Help and legal</h2><ul><li><a href="/contact">Contact</a></li><li><a href="/accessibility">Accessibility</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms of use</a></li></ul></div>
+    </div>
+    <div class="foot-note"><span>&copy; {{year}} {{site_name}}.</span><span>In an emergency, call your local emergency number. This site cannot respond to emergencies.</span></div>
+  </div>
+</footer>
+<script type="module" src="/assets/js/site.js?v={{ver}}"></script>
+{{scripts}}
+</body>
+</html>
